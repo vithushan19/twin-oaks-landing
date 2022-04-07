@@ -15,6 +15,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        marble: "url('/images/marble.png')",
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
         playfair: ['Playfair Display', ...fontFamily.serif],
@@ -25,6 +28,9 @@ module.exports = {
         navyBlue: "#030C1E",
         greyBlue: "#1E2532",
         dark: '#222222',
+      },
+      width: {
+        110: "440px"
       },
       keyframes: {
         flicker: {
