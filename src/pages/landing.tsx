@@ -99,49 +99,95 @@ export default function Landing() {
         <div className='bg-red-100'></div>
       </div>
 
-      <div className='grid grid-cols-2 font-roboto text-xl'>
-        <div>
-          <Image
-            src='/images/second-logo.svg'
-            alt='acorns'
-            width={268}
-            height={258}
-            objectFit='contain'
-          />
-
-          <p>Opening Hours</p>
-
-          <div className='flex flex-col'>
-            <p>Lunch </p>
-            <p>Thursday - Saturday </p>
-            <p>12:30pm - 14:00 </p>
+      <div className='grid grid-cols-2 bg-marble font-roboto text-xl'>
+        <div className='pl-36'>
+          <div className='mt-16'>
+            <Image
+              src='/images/tree.svg'
+              alt='acorns'
+              width={268}
+              height={158}
+              objectFit='contain'
+            />
+            <p className='font-playfair text-5xl'>TWIN OAKS</p>
           </div>
 
-          <div className='flex flex-col'>
-            <p>Dinner </p>
-            <p>Tuesday - Saturday</p>
-            <p>18:30 - 21:30 </p>
+          <p className='mt-10 font-playfair text-3xl'>Opening Hours</p>
+
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Lunch </p>
+            <p className='font-roboto text-xl font-light'>
+              Thursday - Saturday{' '}
+            </p>
+            <p className='font-roboto text-xl font-light'>12:30pm - 14:00 </p>
           </div>
 
-          <p>Contact </p>
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Dinner </p>
+            <p className='font-roboto text-xl font-light'>Tuesday - Saturday</p>
+            <p className='font-roboto text-xl font-light'>18:30 - 21:30</p>
+          </div>
 
-          <div className='flex flex-col'>
-            <p>Email </p>
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Closed </p>
+            <p className='font-roboto text-xl font-light'>Sun & Mon</p>
+          </div>
+
+          <p className='mt-10 font-playfair text-3xl'>Contact</p>
+
+          <div className='mt-5 flex flex-col'>
+            <div className='flex items-center'>
+              <div className='mr-2 flex flex-col items-center'>
+                <Image
+                  src='/images/email.svg'
+                  alt='address'
+                  width={20}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Email</p>
+            </div>
             <p>info@twinoaksrestaurant </p>
           </div>
 
-          <div className='flex flex-col'>
-            <p>Phone</p>
+          <div className='mt-5 flex flex-col'>
+            <div className='flex'>
+              <div className='mr-2'>
+                <Image
+                  src='/images/phone.svg'
+                  alt='address'
+                  width={15}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Phone</p>
+            </div>
+
             <p>+353 87 908 7089 </p>
           </div>
 
-          <div className='flex flex-col'>
-            <p>Address</p>
+          <div className='mt-5 flex flex-col'>
+            <div className='flex'>
+              <div className='mr-2'>
+                <Image
+                  src='/images/address.svg'
+                  alt='address'
+                  width={15}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Address</p>
+            </div>
             <p>Unit 10, Ashleigh Retail Center, </p>
             <p>Castleknock Village, D15 H9YD</p>
           </div>
         </div>
-        <div className='bg-blue-100'></div>
+        <div className='mx-24 mt-48 bg-blue-100'>
+          <p className='font-roboto text-base'>
+            Please contact us if you have any questions regarding private
+            dining, reservations & menus.
+          </p>
+        </div>
       </div>
 
       <div>Footer</div>
