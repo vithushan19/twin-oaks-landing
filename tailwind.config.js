@@ -17,21 +17,13 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
+        playfair: ['Playfair Display', ...fontFamily.serif],
+        roboto: ['Roboto', ...fontFamily.sans],
       },
       colors: {
-        primary: {
-          // Customize it on globals.css :root
-          50: withOpacityValue('--tw-color-primary-50'),
-          100: withOpacityValue('--tw-color-primary-100'),
-          200: withOpacityValue('--tw-color-primary-200'),
-          300: withOpacityValue('--tw-color-primary-300'),
-          400: withOpacityValue('--tw-color-primary-400'),
-          500: withOpacityValue('--tw-color-primary-500'),
-          600: withOpacityValue('--tw-color-primary-600'),
-          700: withOpacityValue('--tw-color-primary-700'),
-          800: withOpacityValue('--tw-color-primary-800'),
-          900: withOpacityValue('--tw-color-primary-900'),
-        },
+        brown: "#5F2003",
+        navyBlue: "#030C1E",
+        greyBlue: "#1E2532",
         dark: '#222222',
       },
       keyframes: {
