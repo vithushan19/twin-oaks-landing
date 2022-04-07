@@ -18,6 +18,9 @@ module.exports = {
       backgroundImage: {
         marble: "url('/images/marble.png')",
       },
+      borderWidth: {
+        '1': '1px',
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
         playfair: ['Playfair Display', ...fontFamily.serif],

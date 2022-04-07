@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Landing() {
   return (
-    <div className='grid grid-cols-1'>
-      <div className='flex h-16 items-center justify-around'>
+    <div className='grid grid-cols-1 bg-marble'>
+      <div className='flex h-16 items-center justify-around bg-white bg-opacity-50 '>
         <div className='flex items-center'>
           <div className='mr-4 flex flex-col items-center '>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
@@ -50,15 +50,17 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='flex h-80 w-full flex-col items-center justify-center bg-marble'>
+      <div className='flex w-full flex-col items-center justify-center p-40'>
         <Image
-          src='/images/header-image.png'
+          src='/images/header-image.svg'
           alt='header'
           width={770}
           height={174}
         />
-        <p>Opening Soon</p>
-        <button>Reserve Now</button>
+        <p className='mb-20 font-roboto text-5xl font-light'>opening soon</p>
+        <button className='rounded-md bg-brown px-6 py-4 text-white'>
+          Reserve a table
+        </button>
       </div>
       <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-60 text-center text-white'>
         <p className='mt-20 mb-5 font-playfair text-5xl'>Our Story</p>
@@ -78,10 +80,10 @@ export default function Landing() {
       </div>
 
       <div className='grid grid-cols-2 font-roboto text-white'>
-        <div className='bg-greyBlue pt-20 pl-36 pr-32'>
+        <div className='bg-greyBlue pt-0 pl-36 pr-32'>
           <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
 
-          <div className='mb-16 h-px w-36 bg-brown' />
+          <div className='mb-16 h-px w-64 bg-brown' />
           <p className='mb-8 font-roboto text-base font-light'>
             Are you looking for an exciting, new opportunity in the hospitality
             industry?
@@ -91,12 +93,21 @@ export default function Landing() {
             house staff. Send us your resume!
           </p>
           <div className='mt-16 mb-24'>
-            <button className='border-2 border-white p-4'>
+            <button className='rounded-md border-1 border-2 border-white p-4'>
               <p className='font-roboto text-base font-light'>Send Resume</p>
             </button>
           </div>
         </div>
-        <div className='bg-red-100'></div>
+        <div className='bg-red-100'>
+          <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+            <Image
+              src='/images/careers.png'
+              alt='careers'
+              layout='fill'
+              objectFit='cover'
+            />
+          </div>
+        </div>
       </div>
 
       <div className='grid grid-cols-2 bg-marble font-roboto text-xl'>
@@ -190,7 +201,20 @@ export default function Landing() {
         </div>
       </div>
 
-      <div>Footer</div>
+      <div className='flex flex-col items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+        <div className='mb-8 flex'>
+          <p className='ml-16'>Careers</p>
+          <p className='ml-16'>Terms & Conditions</p>
+          <p className='ml-16'>Cookie Policy</p>
+        </div>
+        <p className='mb-8'>© Twin Oaks 2022</p>
+        <p className=''>
+          Designed by Winthya | Developed by{' '}
+          <Link href='https://skillify.ca' passHref={true}>
+            <span className='text-yellow-600'>Skillify</span>
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }
