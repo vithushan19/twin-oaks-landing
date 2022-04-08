@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Landing() {
   return (
     <div className='grid grid-cols-1 bg-marble'>
-      <div className='flex h-16 items-center justify-around bg-white bg-opacity-50 '>
+      <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex '>
         <div className='flex items-center'>
           <div className='mr-4 flex flex-col items-center '>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
@@ -50,7 +50,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='flex w-full flex-col items-center justify-center p-40'>
+      <div className='flex w-full flex-col items-center justify-center p-16 sm:p-40'>
         <Image
           src='/images/header-image.svg'
           alt='header'
@@ -62,8 +62,8 @@ export default function Landing() {
           Reserve a table
         </button>
       </div>
-      <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-60 text-center text-white'>
-        <p className='mt-20 mb-5 font-playfair text-5xl'>Our Story</p>
+      <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
+        <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
         <div className='mb-16 h-px w-110 bg-brown' />
         <p className='mb-8 font-roboto font-light'>
           Twin Oaks is a modern Irish gastro-pub located in the heart of
@@ -79,8 +79,8 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 font-roboto text-white'>
-        <div className='bg-greyBlue pt-0 pl-36 pr-32'>
+      <div className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'>
+        <div className='bg-greyBlue pt-0 pl-16 pr-16 sm:pr-32 sm:pl-36'>
           <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
 
           <div className='mb-16 h-px w-64 bg-brown' />
@@ -110,8 +110,8 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 bg-marble font-roboto text-xl'>
-        <div className='pl-36'>
+      <div className='grid grid-cols-1 bg-marble font-roboto text-xl sm:grid-cols-2'>
+        <div className='pl-16 sm:pl-36'>
           <div className='mt-16'>
             <Image
               src='/images/tree.svg'
@@ -193,7 +193,7 @@ export default function Landing() {
             <p>Castleknock Village, D15 H9YD</p>
           </div>
         </div>
-        <div className='mx-24 mt-48 bg-blue-100'>
+        <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
           <p className='font-roboto text-base'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
@@ -201,14 +201,12 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='flex flex-col items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
-        <div className='mb-8 flex'>
-          <p className='ml-16'>Careers</p>
-          <p className='ml-16'>Terms & Conditions</p>
-          <p className='ml-16'>Cookie Policy</p>
-        </div>
-        <p className='mb-8'>© Twin Oaks 2022</p>
-        <p className=''>
+      <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+        <p className=''>Careers</p>
+        <p className=''>Terms & Conditions</p>
+        <p className=''>Cookie Policy</p>
+        <p className='col-span-3 my-8'>© Twin Oaks 2022</p>
+        <p className='col-span-3'>
           Designed by Winthya | Developed by{' '}
           <Link href='https://skillify.ca' passHref={true}>
             <span className='text-yellow-600'>Skillify</span>
