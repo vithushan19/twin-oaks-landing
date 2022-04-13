@@ -94,7 +94,12 @@ export default function Landing() {
           </p>
           <div className='mt-16 mb-24'>
             <button className='rounded-md border-1 border-2 border-white p-4'>
-              <p className='font-roboto text-base font-light'>Send Resume</p>
+              <a
+                href='mailto:info@twinoaks.ie'
+                className='font-roboto text-base font-light'
+              >
+                Send Resume
+              </a>
             </button>
           </div>
         </div>
