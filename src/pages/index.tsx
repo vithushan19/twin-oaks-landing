@@ -65,12 +65,12 @@ export default function Landing() {
       <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
         <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
-        <p className='mb-8 font-roboto font-light'>
+        <p className='mb-8 font-roboto text-lg font-light'>
           Twin Oaks is a modern Irish gastro-pub located in the heart of
           Castleknock village. A place where you can bring family and friends to
           enjoy an elevated dining experience.
         </p>
-        <p className='mb-20 font-roboto font-light'>
+        <p className='mb-20 font-roboto text-lg font-light'>
           Launching this Spring, Twin Oaks will serve contemporary Irish food,
           great cocktails and even greater pints.
         </p>
@@ -84,11 +84,11 @@ export default function Landing() {
           <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
 
           <div className='mb-16 h-px w-64 bg-brown' />
-          <p className='mb-8 font-roboto text-base font-light'>
+          <p className='mb-8 font-roboto text-lg font-light'>
             Are you looking for an exciting, new opportunity in the hospitality
             industry?
           </p>
-          <p className='font-roboto text-base font-light'>
+          <p className='font-roboto text-lg font-light'>
             We are hiring all levels of kitchen staff and all levels of front of
             house staff. Send us your resume!
           </p>
