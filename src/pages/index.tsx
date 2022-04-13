@@ -64,7 +64,7 @@ export default function Landing() {
       </div>
       <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
         <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
-        <div className='mb-16 h-px w-110 bg-brown' />
+        <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto font-light'>
           Twin Oaks is a modern Irish gastro-pub located in the heart of
           Castleknock village. A place where you can bring family and friends to
