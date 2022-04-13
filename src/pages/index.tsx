@@ -1,74 +1,218 @@
-import * as React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
-import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
-import Seo from '@/components/Seo';
-
-/**
- * SVGR Support
- * Caveat: No React Props Type.
- *
- * You can override the next-env if the type is important to you
- * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
- */
-import Vercel from '~/svg/Vercel.svg';
-
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
-export default function HomePage() {
+export default function Landing() {
   return (
-    <Layout>
-      {/* <Seo templateTitle='Home' /> */}
-      <Seo />
-
-      <main>
-        <section className='bg-white'>
-          <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
-            <Vercel className='text-5xl' />
-            <h1 className='mt-4'>
-              Next.js + Tailwind CSS + TypeScript Starter
-            </h1>
-            <p className='mt-2 text-sm text-gray-800'>
-              A starter for Next.js, Tailwind CSS, and TypeScript with Absolute
-              Import, Seo, Link component, pre-configured with Husky{' '}
-            </p>
-            <p className='mt-2 text-sm text-gray-700'>
-              <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
-                See the repository
-              </ArrowLink>
-            </p>
-
-            <ButtonLink className='mt-6' href='/components' variant='light'>
-              See all components
-            </ButtonLink>
-
-            <UnstyledLink
-              href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter'
-              className='mt-4'
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                width='92'
-                height='32'
-                src='https://vercel.com/button'
-                alt='Deploy with Vercel'
-              />
-            </UnstyledLink>
-
-            <footer className='absolute bottom-2 text-gray-700'>
-              © {new Date().getFullYear()} By{' '}
-              <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-                Theodorus Clarence
-              </UnderlineLink>
-            </footer>
+    <div className='grid grid-cols-1 bg-marble'>
+      <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex '>
+        <div className='flex items-center'>
+          <div className='mr-4 flex flex-col items-center '>
+            <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
+          </div>{' '}
+          <p>647-431-4312</p>
+        </div>
+        <div className='flex'>
+          <div className='mr-4'>
+            <Link href='/'>About Us</Link>
           </div>
-        </section>
-      </main>
-    </Layout>
+          <div className='mr-4'>
+            <Link href='/'>Careers</Link>
+          </div>
+          <div className='mr-4'>
+            <Link href='/'>Contact</Link>
+          </div>
+        </div>
+        <div className='flex'>
+          <div className='mr-4'>
+            <Image
+              src='/images/twitter.svg'
+              alt='twitter'
+              width={20}
+              height={20}
+            />
+          </div>{' '}
+          <div className='mr-4'>
+            <Image
+              src='/images/facebook.svg'
+              alt='facebook'
+              width={20}
+              height={20}
+            />
+          </div>
+          <div className='mr-4'>
+            <Image
+              src='/images/Instagram.svg'
+              alt='instagram'
+              width={20}
+              height={20}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className='flex w-full flex-col items-center justify-center p-16 sm:p-40'>
+        <Image
+          src='/images/header-image.svg'
+          alt='header'
+          width={770}
+          height={174}
+        />
+        <p className='mb-20 font-roboto text-5xl font-light'>opening soon</p>
+        <button className='rounded-md bg-brown px-6 py-4 text-white'>
+          Reserve a table
+        </button>
+      </div>
+      <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
+        <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
+        <div className='mb-16 h-px w-110 bg-brown' />
+        <p className='mb-8 font-roboto font-light'>
+          Twin Oaks is a modern Irish gastro-pub located in the heart of
+          Castleknock village. A place where you can bring family and friends to
+          enjoy an elevated dining experience.
+        </p>
+        <p className='mb-20 font-roboto font-light'>
+          Launching this Spring, Twin Oaks will serve contemporary Irish food,
+          great cocktails and even greater pints.
+        </p>
+        <div className='mb-20'>
+          <Image src='/images/acorns.svg' alt='acorns' width={48} height={48} />
+        </div>
+      </div>
+
+      <div className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'>
+        <div className='bg-greyBlue pt-0 pl-16 pr-16 sm:pr-32 sm:pl-36'>
+          <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
+
+          <div className='mb-16 h-px w-64 bg-brown' />
+          <p className='mb-8 font-roboto text-base font-light'>
+            Are you looking for an exciting, new opportunity in the hospitality
+            industry?
+          </p>
+          <p className='font-roboto text-base font-light'>
+            We are hiring all levels of kitchen staff and all levels of front of
+            house staff. Send us your resume!
+          </p>
+          <div className='mt-16 mb-24'>
+            <button className='rounded-md border-1 border-2 border-white p-4'>
+              <p className='font-roboto text-base font-light'>Send Resume</p>
+            </button>
+          </div>
+        </div>
+        <div className='bg-red-100'>
+          <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+            <Image
+              src='/images/careers.png'
+              alt='careers'
+              layout='fill'
+              objectFit='cover'
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className='grid grid-cols-1 bg-marble font-roboto text-xl sm:grid-cols-2'>
+        <div className='pl-16 sm:pl-36'>
+          <div className='mt-16'>
+            <Image
+              src='/images/tree.svg'
+              alt='acorns'
+              width={268}
+              height={158}
+              objectFit='contain'
+            />
+            <p className='font-playfair text-5xl'>TWIN OAKS</p>
+          </div>
+
+          <p className='mt-10 font-playfair text-3xl'>Opening Hours</p>
+
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Lunch </p>
+            <p className='font-roboto text-xl font-light'>
+              Thursday - Saturday{' '}
+            </p>
+            <p className='font-roboto text-xl font-light'>12:30pm - 14:00 </p>
+          </div>
+
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Dinner </p>
+            <p className='font-roboto text-xl font-light'>Tuesday - Saturday</p>
+            <p className='font-roboto text-xl font-light'>18:30 - 21:30</p>
+          </div>
+
+          <div className='mt-5 flex flex-col'>
+            <p className='font-roboto text-xl font-bold'>Closed </p>
+            <p className='font-roboto text-xl font-light'>Sun & Mon</p>
+          </div>
+
+          <p className='mt-10 font-playfair text-3xl'>Contact</p>
+
+          <div className='mt-5 flex flex-col'>
+            <div className='flex items-center'>
+              <div className='mr-2 flex flex-col items-center'>
+                <Image
+                  src='/images/email.svg'
+                  alt='address'
+                  width={20}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Email</p>
+            </div>
+            <p>info@twinoaksrestaurant </p>
+          </div>
+
+          <div className='mt-5 flex flex-col'>
+            <div className='flex'>
+              <div className='mr-2'>
+                <Image
+                  src='/images/phone.svg'
+                  alt='address'
+                  width={15}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Phone</p>
+            </div>
+
+            <p>+353 87 908 7089 </p>
+          </div>
+
+          <div className='mt-5 flex flex-col'>
+            <div className='flex'>
+              <div className='mr-2'>
+                <Image
+                  src='/images/address.svg'
+                  alt='address'
+                  width={15}
+                  height={20}
+                />
+              </div>
+              <p className='font-bold'>Address</p>
+            </div>
+            <p>Unit 10, Ashleigh Retail Center, </p>
+            <p>Castleknock Village, D15 H9YD</p>
+          </div>
+        </div>
+        <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
+          <p className='font-roboto text-base'>
+            Please contact us if you have any questions regarding private
+            dining, reservations & menus.
+          </p>
+        </div>
+      </div>
+
+      <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+        <p className=''>Careers</p>
+        <p className=''>Terms & Conditions</p>
+        <p className=''>Cookie Policy</p>
+        <p className='col-span-3 my-8'>© Twin Oaks 2022</p>
+        <p className='col-span-3'>
+          Designed by Winthya | Developed by{' '}
+          <Link href='https://skillify.ca' passHref={true}>
+            <span className='text-yellow-600'>Skillify</span>
+          </Link>
+        </p>
+      </div>
+    </div>
   );
 }
