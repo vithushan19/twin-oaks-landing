@@ -66,13 +66,10 @@ export default function Landing() {
         <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
-          Twin Oaks is a modern Irish gastro-pub located in the heart of
-          Castleknock village. A place where you can bring family and friends to
-          enjoy an elevated dining experience.
+          Twin Oaks is a locally owned restaurant serving modern Irish cuisine. Simple, clean, unfussy and seasonal. A variety of tasty small plates, delicous mains & sharing dishes. 
         </p>
         <p className='mb-20 font-roboto text-lg font-light'>
-          Launching this Spring, Twin Oaks will serve contemporary Irish food,
-          great cocktails and even greater pints.
+          Launching this Summer, Twin Oaks is a beautifully designed restaurant, in a fantastic location next to the Phoenix Park.
         </p>
         <div className='mb-20'>
           <Image src='/images/acorns.svg' alt='acorns' width={48} height={48} />
