@@ -40,12 +40,13 @@ export default function Landing() {
             />
           </div>
           <div className='mr-10'>
+          <a href='https://www.instagram.com/twinoaks.ie/'>
             <Image
               src='/images/Instagram.svg'
               alt='instagram'
               width={20}
               height={20}
-            />
+            /a>
           </div>
         </div>
       </div>
@@ -189,7 +190,7 @@ export default function Landing() {
                   height={20}
                 />
               </div>
-              <p className='mb-10 font-bold'>Address</p>
+              <p className='font-bold'>Address</p>
             </div>
             <p>Unit 10, Ashleigh Retail Center, </p>
             <p>Castleknock Village, D15 H9YD</p>
@@ -204,7 +205,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='mt-10 grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+      <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
         <p className=''>Careers</p>
         <p className=''>Terms & Conditions</p>
         <p className=''>Cookie Policy</p>
