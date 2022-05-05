@@ -204,7 +204,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+      <div className='mt-10 grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
         <p className=''>Careers</p>
         <p className=''>Terms & Conditions</p>
         <p className=''>Cookie Policy</p>
