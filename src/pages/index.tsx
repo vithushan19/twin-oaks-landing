@@ -13,13 +13,13 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <Link href='/'>About Us</Link>
+            <Link href='/'>ABOUT US</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>Careers</Link>
+            <Link href='/'>CAREERS</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>Contact</Link>
+            <Link href='/'>CONTACT</Link>
           </div>
         </div>
         <div className='flex'>
