@@ -194,7 +194,6 @@ export default function Landing() {
             </div>
             <p>Unit 10, Ashleigh Retail Center, </p>
             <p>Castleknock Village, D15 H9YD</p>
-        
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
