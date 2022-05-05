@@ -13,13 +13,13 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <Link href='/'>About Us</Link>
+            <Link href='/'>ABOUT US</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>Careers</Link>
+            <Link href='/'>CAREERS</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>Contact</Link>
+            <Link href='/'>CONTACT</Link>
           </div>
         </div>
         <div className='flex'>
@@ -129,22 +129,22 @@ export default function Landing() {
           <p className='mt-10 font-playfair text-3xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Lunch </p>
+            <p className='font-roboto text-xl font-bold'>Monday & Tuesday </p>
             <p className='font-roboto text-xl font-light'>
-              Thursday - Saturday{' '}
+              Closed{' '}
             </p>
-            <p className='font-roboto text-xl font-light'>12:30pm - 14:00 </p>
+      
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Dinner </p>
-            <p className='font-roboto text-xl font-light'>Tuesday - Saturday</p>
-            <p className='font-roboto text-xl font-light'>18:30 - 21:30</p>
+            <p className='font-roboto text-xl font-bold'>Wedenesday & Thursday </p>
+            <p className='font-roboto text-xl font-light'>18:30 - 21:30 </p>
+            
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Closed </p>
-            <p className='font-roboto text-xl font-light'>Sun & Mon</p>
+            <p className='font-roboto text-xl font-bold'>Friday - Sunday </p>
+            <p className='font-roboto text-xl font-light'>12:00 - 21:30 </p>
           </div>
 
           <p className='mt-10 font-playfair text-3xl'>Contact</p>
@@ -161,7 +161,7 @@ export default function Landing() {
               </div>
               <p className='font-bold'>Email</p>
             </div>
-            <p>info@twinoaksrestaurant </p>
+            <p className='font-roboto text-xl font-light'>info@twinoaksrestaurant </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
