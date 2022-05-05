@@ -208,9 +208,9 @@ export default function Landing() {
         <p className=''>Careers</p>
         <p className=''>Terms & Conditions</p>
         <p className=''>Cookie Policy</p>
-        <p className='col-span-3 my-8'>© Twin Oaks 2022</p>
+        <p className='col-span-3 justify-center my-8'>© Twin Oaks 2022</p>
         <p className='col-span-3'>
-          Designed by Winthya | Developed by{' '}
+          Designed & Developed by{' '}
           <Link href='https://skillify.ca' passHref={true}>
             <span className='text-yellow-600'>Skillify</span>
           </Link>
