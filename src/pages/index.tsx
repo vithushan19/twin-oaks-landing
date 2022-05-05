@@ -58,7 +58,7 @@ export default function Landing() {
           height={174}
         />
         <p className='mb-20 font-roboto text-5xl font-light'>opening soon</p>
-        <button className='rounded-md bg-brown px-6 py-4 text-white'>
+        <button className='rounded-sm bg-brown px-6 py-4 text-white'>
           Reserve a table
         </button>
       </div>
@@ -90,9 +90,9 @@ export default function Landing() {
             house staff. Send us your resume!
           </p>
           <div className='mt-16 mb-24'>
-            <button className='rounded-md border-1 border-2 border-white p-4'>
+            <button className='rounded-sm border-1 border-2 border-white p-4'>
               <a
-                href='mailto:info@twinoaks.ie'
+                href='mailto:careers@twinoaks.ie'
                 className='font-roboto text-base font-light'
               >
                 Send Resume
