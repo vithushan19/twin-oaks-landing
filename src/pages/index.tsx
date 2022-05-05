@@ -41,12 +41,13 @@ export default function Landing() {
           </div>
           <div className='mr-10'>
           <a href='https://www.instagram.com/twinoaks.ie/'>
+          /a>
             <Image
               src='/images/Instagram.svg'
               alt='instagram'
               width={20}
               height={20}
-            /a>
+            
           </div>
         </div>
       </div>
