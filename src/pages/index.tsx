@@ -189,11 +189,11 @@ export default function Landing() {
                   height={20}
                 />
               </div>
-              <p className='font-bold'>Address</p>
+              <p className='mb-10 font-bold'>Address</p>
             </div>
             <p>Unit 10, Ashleigh Retail Center, </p>
             <p>Castleknock Village, D15 H9YD</p>
-            <div class='mb-10'>
+        
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
