@@ -13,17 +13,17 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <Link href='/'>ABOUT US</Link>
+            <Link href='/'>About Us</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>CAREERS</Link>
+            <Link href='/'>Careers</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>CONTACT</Link>
+            <Link href='/'>Contact</Link>
           </div>
         </div>
         <div className='flex'>
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/twitter.svg'
               alt='twitter'
@@ -31,7 +31,7 @@ export default function Landing() {
               height={20}
             />
           </div>{' '}
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/facebook.svg'
               alt='facebook'
@@ -39,7 +39,7 @@ export default function Landing() {
               height={20}
             />
           </div>
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/Instagram.svg'
               alt='instagram'
@@ -193,6 +193,7 @@ export default function Landing() {
             </div>
             <p>Unit 10, Ashleigh Retail Center, </p>
             <p>Castleknock Village, D15 H9YD</p>
+            <div class='mb-10'>
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
