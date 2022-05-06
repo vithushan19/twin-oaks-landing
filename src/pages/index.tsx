@@ -45,7 +45,7 @@ export default function Landing() {
               alt='instagram'
               width={20}
               height={20}
-            
+            />
           </div>
         </div>
       </div>
