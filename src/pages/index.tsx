@@ -134,7 +134,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 bg-marble font-roboto text-xl sm:grid-cols-2'>
+      <div className='grid grid-cols-1 bg-marble bg-repeat-round font-roboto text-xl sm:grid-cols-2'>
         <div className='pl-16 sm:pl-36'>
           <div className='mt-16'>
             <Image
@@ -199,10 +199,10 @@ export default function Landing() {
               <p className='font-bold'>Address</p>
             </div>
             <p className='font-roboto text-xl font-light mt-2'>Unit 10, Ashleigh Retail Center, </p>
-            <p className='font-roboto text-xl font-light'>Castleknock Village, D15 H9YD</p>
+            <p className='font-roboto text-xl font-light'>Castleknock Village, D15 H9YD </p>
           </div>
         </div>
-        <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
+        <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
           <p className='font-roboto text-base'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
