@@ -12,18 +12,18 @@ export default function Landing() {
           <p>647-431-4312</p>
         </div>
         <div className='flex'>
-          <div className='mr-4'>
-            <Link href='/'>About Us</Link>
+          <div className='mr-10'>
+            <Link href='/'>ABOUT US</Link>
           </div>
-          <div className='mr-4'>
-            <Link href='/'>Careers</Link>
+          <div className='mr-10'>
+            <Link href='/'>CAREERS</Link>
           </div>
-          <div className='mr-4'>
-            <Link href='/'>Contact</Link>
+          <div className='mr-10'>
+            <Link href='/'>CONTACT</Link>
           </div>
         </div>
         <div className='flex'>
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/twitter.svg'
               alt='twitter'
@@ -31,7 +31,7 @@ export default function Landing() {
               height={20}
             />
           </div>{' '}
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/facebook.svg'
               alt='facebook'
@@ -39,7 +39,7 @@ export default function Landing() {
               height={20}
             />
           </div>
-          <div className='mr-4'>
+          <div className='mr-10'>
             <Image
               src='/images/Instagram.svg'
               alt='instagram'
@@ -52,12 +52,12 @@ export default function Landing() {
 
       <div className='flex w-full flex-col items-center justify-center p-16 sm:p-40'>
         <Image
-          src='/images/header-image.svg'
+          src='/images/header_web_logo.svg'
           alt='header'
           width={770}
           height={174}
         />
-        <p className='mb-20 font-roboto text-5xl font-light'>opening soon</p>
+    
         <button className='rounded-sm bg-brown px-6 py-4 text-white'>
           Reserve a table
         </button>
@@ -128,22 +128,22 @@ export default function Landing() {
           <p className='mt-10 font-playfair text-3xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Lunch </p>
+            <p className='font-roboto text-xl font-bold'>Monday & Tuesday </p>
             <p className='font-roboto text-xl font-light'>
-              Thursday - Saturday{' '}
+              Closed{' '}
             </p>
-            <p className='font-roboto text-xl font-light'>12:30pm - 14:00 </p>
+      
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Dinner </p>
-            <p className='font-roboto text-xl font-light'>Tuesday - Saturday</p>
-            <p className='font-roboto text-xl font-light'>18:30 - 21:30</p>
+            <p className='font-roboto text-xl font-bold'>Wedenesday & Thursday </p>
+            <p className='font-roboto text-xl font-light'>18:30 - 21:30 </p>
+            
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Closed </p>
-            <p className='font-roboto text-xl font-light'>Sun & Mon</p>
+            <p className='font-roboto text-xl font-bold'>Friday - Sunday </p>
+            <p className='font-roboto text-xl font-light'>12:00 - 21:30 </p>
           </div>
 
           <p className='mt-10 font-playfair text-3xl'>Contact</p>
@@ -160,7 +160,7 @@ export default function Landing() {
               </div>
               <p className='font-bold'>Email</p>
             </div>
-            <p>info@twinoaksrestaurant </p>
+            <p className='font-roboto text-xl font-light'>info@twinoaksrestaurant </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
@@ -204,12 +204,13 @@ export default function Landing() {
       </div>
 
       <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+      <div className='mb-16 h-px w-64 bg-brown' />
         <p className=''>Careers</p>
         <p className=''>Terms & Conditions</p>
         <p className=''>Cookie Policy</p>
-        <p className='col-span-3 my-8'>© Twin Oaks 2022</p>
+        <p className='col-span-3 justify-center my-8'>© Twin Oaks 2022</p>
         <p className='col-span-3'>
-          Designed by Winthya | Developed by{' '}
+          Designed & Developed by{' '}
           <Link href='https://skillify.ca' passHref={true}>
             <span className='text-yellow-600'>Skillify</span>
           </Link>
