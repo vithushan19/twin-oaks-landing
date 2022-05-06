@@ -13,7 +13,7 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <Link href='/'>ABOUT US</Link>
+            <Link href='#aboutus'>ABOUT US</Link>
           </div>
           <div className='mr-10'>
             <Link href='/'>CAREERS</Link>
@@ -24,12 +24,14 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <Image
-              src='/images/twitter.svg'
-              alt='twitter'
-              width={20}
-              height={20}
-            />
+            <a target='_blank' href='https://www.google.ca' rel='noreferrer'>
+              <Image
+                src='/images/twitter.svg'
+                alt='twitter'
+                width={20}
+                height={20}
+              />
+            </a>
           </div>{' '}
           <div className='mr-10'>
             <Image
@@ -51,25 +53,41 @@ export default function Landing() {
       </div>
 
       <div className='flex w-full flex-col items-center justify-center p-16 sm:p-40'>
-        <Image
-          src='/images/header_web_logo.svg'
-          alt='header'
-          width={770}
-          height={174}
-        />
-    
+        <div className='hidden sm:block'>
+          {' '}
+          <Image
+            src='/images/header_web_logo.svg'
+            alt='header'
+            width={770}
+            height={174}
+          />
+        </div>
+        <div className='sm:hidden'>
+          {' '}
+          <Image
+            src='/images/tree.svg'
+            alt='acorns'
+            width={268}
+            height={158}
+            objectFit='contain'
+          />
+          <p className='font-playfair text-4xl w-full text-center mb-8'>TWIN OAKS</p>
+        </div>
         <button className='rounded-sm bg-brown px-6 py-4 text-white'>
           Reserve a table
         </button>
       </div>
-      <div className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
+      <div id='aboutus' className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
         <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
-          Twin Oaks is a locally owned restaurant serving modern Irish cuisine. Simple, clean, unfussy and seasonal. A variety of tasty small plates, delicous mains & sharing dishes. 
+          Twin Oaks is a locally owned restaurant serving modern Irish cuisine.
+          Simple, clean, unfussy and seasonal. A variety of tasty small plates,
+          delicous mains & sharing dishes.
         </p>
         <p className='mb-20 font-roboto text-lg font-light'>
-          Launching this Summer, Twin Oaks is a beautifully designed restaurant, in a fantastic location next to the Phoenix Park.
+          Launching this Summer, Twin Oaks is a beautifully designed restaurant,
+          in a fantastic location next to the Phoenix Park.
         </p>
         <div className='mb-20'>
           <Image src='/images/acorns.svg' alt='acorns' width={48} height={48} />
@@ -129,16 +147,14 @@ export default function Landing() {
 
           <div className='mt-5 flex flex-col'>
             <p className='font-roboto text-xl font-bold'>Monday & Tuesday </p>
-            <p className='font-roboto text-xl font-light'>
-              Closed{' '}
-            </p>
-      
+            <p className='font-roboto text-xl font-light'>Closed </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Wedenesday & Thursday </p>
+            <p className='font-roboto text-xl font-bold'>
+              Wedenesday & Thursday{' '}
+            </p>
             <p className='font-roboto text-xl font-light'>18:30 - 21:30 </p>
-            
           </div>
 
           <div className='mt-5 flex flex-col'>
@@ -160,7 +176,9 @@ export default function Landing() {
               </div>
               <p className='font-bold'>Email</p>
             </div>
-            <p className='font-roboto text-xl font-light'>info@twinoaksrestaurant </p>
+            <p className='font-roboto text-xl font-light'>
+              info@twinoaksrestaurant{' '}
+            </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
@@ -179,7 +197,7 @@ export default function Landing() {
             <p>+353 87 908 7089 </p>
           </div>
 
-          <div className='mt-5 flex flex-col'>
+          <div className='mt-5 mb-5 flex flex-col'>
             <div className='flex'>
               <div className='mr-2'>
                 <Image
@@ -203,13 +221,17 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-3 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
-      <div className='mb-16 h-px w-64 bg-brown' />
-        <p className=''>Careers</p>
-        <p className=''>Terms & Conditions</p>
-        <p className=''>Cookie Policy</p>
-        <p className='col-span-3 justify-center my-8'>© Twin Oaks 2022</p>
-        <p className='col-span-3'>
+      <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+        <div className='w-100 col-span-8 col-start-3 mb-16 mt-4 h-px bg-yellow-600' />
+        <div className='col-span-4 col-start-5 flex flex-row justify-center'>
+          <p className='mr-10'>Careers</p>
+          <p className='mr-10'>Terms & Conditions</p>
+          <p className=''>Cookie Policy</p>
+        </div>
+        <p className='col-span-4 col-start-5 my-8 text-center'>
+          © Twin Oaks 2022
+        </p>
+        <p className='col-span-4 col-start-5 text-center'>
           Designed & Developed by{' '}
           <Link href='https://skillify.ca' passHref={true}>
             <span className='text-yellow-600'>Skillify</span>
