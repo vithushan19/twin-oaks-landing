@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Landing() {
   return (
-    <div className='grid grid-cols-1 bg-marble'>
+    <div className='h-full grid grid-cols-1 bg-marble bg-repeat-round'>
       <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex '>
         <div className='flex items-center'>
           <div className='mr-4 flex flex-col items-center '>
@@ -24,7 +24,7 @@ export default function Landing() {
         </div>
         <div className='flex'>
           <div className='mr-10'>
-            <a target='_blank' href='https://www.google.ca' rel='noreferrer'>
+            <a target='_blank' href='https://twitter.com/twinoak02355553' rel='noreferrer'>
               <Image
                 src='/images/twitter.svg'
                 alt='twitter'
@@ -34,25 +34,29 @@ export default function Landing() {
             </a>
           </div>{' '}
           <div className='mr-10'>
+          <a target='_blank' href='https://www.facebook.com/Twin-Oaks-Restaurant-114943181204346 ' rel='noreferrer'>
             <Image
               src='/images/facebook.svg'
               alt='facebook'
               width={20}
               height={20}
             />
+            </a>
           </div>
           <div className='mr-10'>
+          <a target='_blank' href='https://www.instagram.com/twinoaks.ie/' rel='noreferrer'>
             <Image
               src='/images/Instagram.svg'
               alt='instagram'
               width={20}
               height={20}
             />
+             </a>
           </div>
         </div>
       </div>
 
-      <div className='flex w-full flex-col items-center justify-center p-16 sm:p-40'>
+      <div className=' h-full flex w-full flex-col items-center justify-center p-16 sm:p-20 lg:p-40'>
         <div className='hidden sm:block'>
           {' '}
           <Image
