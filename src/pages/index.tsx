@@ -147,74 +147,59 @@ export default function Landing() {
             <p className='font-playfair text-5xl'>TWIN OAKS</p>
           </div>
 
-          <p className='mt-10 font-playfair text-3xl'>Opening Hours</p>
+          <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
             <p className='font-roboto text-xl font-bold'>Monday & Tuesday </p>
-            <p className='font-roboto text-xl font-light'>Closed </p>
+            <p className='font-roboto text-xl font-light mt-2'>Closed </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
             <p className='font-roboto text-xl font-bold'>
               Wedenesday & Thursday{' '}
             </p>
-            <p className='font-roboto text-xl font-light'>18:30 - 21:30 </p>
+            <p className='font-roboto text-xl font-light mt-2'>18:30 - 21:30 </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
             <p className='font-roboto text-xl font-bold'>Friday - Sunday </p>
-            <p className='font-roboto text-xl font-light'>12:00 - 21:30 </p>
+            <p className='font-roboto text-xl font-light mt-2'>12:00 - 21:30 </p>
           </div>
 
-          <p className='mt-10 font-playfair text-3xl'>Contact</p>
+          <p className='mt-10 mb-8 font-playfair text-3xl'>Contact</p>
 
           <div className='mt-5 flex flex-col'>
             <div className='flex items-center'>
-              <div className='mr-2 flex flex-col items-center'>
-                <Image
-                  src='/images/email.svg'
-                  alt='address'
-                  width={20}
-                  height={20}
-                />
+              <div className='mr-0 flex flex-col items-center'>
+               
               </div>
               <p className='font-bold'>Email</p>
             </div>
-            <p className='font-roboto text-xl font-light'>
+            <p className='font-roboto text-xl font-light mt-2'>
               info@twinoaksrestaurant{' '}
             </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
             <div className='flex'>
-              <div className='mr-2'>
-                <Image
-                  src='/images/phone.svg'
-                  alt='address'
-                  width={15}
-                  height={20}
-                />
+              <div className='mr-0'>
+                
               </div>
               <p className='font-bold'>Phone</p>
             </div>
 
-            <p>+353 87 908 7089 </p>
+            <p className='font-roboto text-xl font-light mt-2'>+353 87 908 7089 </p>
           </div>
 
-          <div className='mt-5 mb-5 flex flex-col'>
+          <div className='mt-5 mb-20 flex flex-col'>
             <div className='flex'>
-              <div className='mr-2'>
-                <Image
-                  src='/images/address.svg'
-                  alt='address'
-                  width={15}
-                  height={20}
-                />
+              <div className='mr-0'>
+                
               </div>
               <p className='font-bold'>Address</p>
             </div>
-            <p>Unit 10, Ashleigh Retail Center, </p>
-            <p>Castleknock Village, D15 H9YD</p>
+            <p className='font-roboto text-xl font-light mt-2'>Unit 10, Ashleigh Retail Center, </p>
+            <p className='font-roboto text-xl font-light'>Castleknock Village, D15 H9YD</p>
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 bg-blue-100 sm:mx-24 sm:mt-48'>
