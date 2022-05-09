@@ -4,11 +4,11 @@ import Link from 'next/link';
 export default function Landing() {
   return (
     <div className='h-full grid grid-cols-1 bg-marble bg-repeat-round'>
-      <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex '>
+      <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex'>
         <div className='flex items-center'>
-          <div className='mr-4 flex flex-col items-center '>
+          <div className='mr-4 flex flex-col items-center'>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
-          </div>{' '}
+          </div> {' '}
           <p>647-431-4312</p>
         </div>
         <div className='flex'>
@@ -16,14 +16,15 @@ export default function Landing() {
             <Link href='#aboutus'>ABOUT US</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>CAREERS</Link>
+            <Link href='#careers'>CAREERS</Link>
           </div>
           <div className='mr-10'>
-            <Link href='/'>CONTACT</Link>
+            <Link href='#hours'>CONTACT</Link>
           </div>
         </div>
         <div className='flex'>
           <div className='mr-10'>
+        
             <a target='_blank' href='https://twitter.com/twinoak02355553' rel='noreferrer'>
               <Image
                 src='/images/twitter.svg'
@@ -34,6 +35,7 @@ export default function Landing() {
             </a>
           </div>{' '}
           <div className='mr-10'>
+          
           <a target='_blank' href='https://www.facebook.com/Twin-Oaks-Restaurant-114943181204346 ' rel='noreferrer'>
             <Image
               src='/images/facebook.svg'
@@ -44,6 +46,7 @@ export default function Landing() {
             </a>
           </div>
           <div className='mr-10'>
+       
           <a target='_blank' href='https://www.instagram.com/twinoaks.ie/' rel='noreferrer'>
             <Image
               src='/images/Instagram.svg'
@@ -55,6 +58,8 @@ export default function Landing() {
           </div>
         </div>
       </div>
+
+      
 
       <div className=' h-full flex w-full flex-col items-center justify-center p-16 sm:p-20 lg:p-40'>
         <div className='hidden sm:block'>
@@ -98,7 +103,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'>
+      <div id='careers'className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'>
         <div className='bg-greyBlue pt-0 pl-16 pr-16 sm:pr-32 sm:pl-36'>
           <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
 
@@ -134,7 +139,7 @@ export default function Landing() {
         </div>
       </div>
 
-      <div className='grid grid-cols-1 bg-marble bg-repeat-round font-roboto text-xl sm:grid-cols-2'>
+      <div id='hours'className='grid grid-cols-1 bg-marble bg-repeat-round font-roboto text-xl sm:grid-cols-2'>
         <div className='pl-16 sm:pl-36'>
           <div className='mt-16'>
             <Image
@@ -143,6 +148,9 @@ export default function Landing() {
               width={268}
               height={158}
               objectFit='contain'
+              margin-left= 'auto'
+              margin-right='auto'
+    
             />
             <p className='font-playfair text-5xl'>TWIN OAKS</p>
           </div>
@@ -150,20 +158,20 @@ export default function Landing() {
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Monday & Tuesday </p>
-            <p className='font-roboto text-xl font-light mt-2'>Closed </p>
+            <p className='font-roboto text-xl font-bold text-amber-900'>Monday & Tuesday </p>
+            <p className='font-roboto text-xl font-regular mt-2'>Closed </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>
+            <p className='font-roboto text-xl font-bold text-amber-900'>
               Wedenesday & Thursday{' '}
             </p>
-            <p className='font-roboto text-xl font-light mt-2'>18:30 - 21:30 </p>
+            <p className='font-roboto text-xl font-regular mt-2'>18:30 - 21:30 </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold'>Friday - Sunday </p>
-            <p className='font-roboto text-xl font-light mt-2'>12:00 - 21:30 </p>
+            <p className='font-roboto text-xl font-bold text-amber-900'>Friday - Sunday </p>
+            <p className='font-roboto text-xl font-regular mt-2'>12:00 - 21:30 </p>
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Contact</p>
@@ -173,9 +181,9 @@ export default function Landing() {
               <div className='mr-0 flex flex-col items-center'>
                
               </div>
-              <p className='font-bold'>Email</p>
+              <p className='font-bold text-amber-900'>Email</p>
             </div>
-            <p className='font-roboto text-xl font-light mt-2'>
+            <p className='font-roboto text-xl font-regular mt-2'>
               info@twinoaksrestaurant{' '}
             </p>
           </div>
@@ -185,10 +193,10 @@ export default function Landing() {
               <div className='mr-0'>
                 
               </div>
-              <p className='font-bold'>Phone</p>
+              <p className='font-bold text-amber-900'>Phone</p>
             </div>
 
-            <p className='font-roboto text-xl font-light mt-2'>+353 87 908 7089 </p>
+            <p className='font-roboto text-xl font-regular mt-2'>+353 87 908 7089 </p>
           </div>
 
           <div className='mt-5 mb-20 flex flex-col'>
@@ -196,10 +204,10 @@ export default function Landing() {
               <div className='mr-0'>
                 
               </div>
-              <p className='font-bold'>Address</p>
+              <p className='font-bold text-amber-900'>Address</p>
             </div>
-            <p className='font-roboto text-xl font-light mt-2'>Unit 10, Ashleigh Retail Center, </p>
-            <p className='font-roboto text-xl font-light'>Castleknock Village, D15 H9YD </p>
+            <p className='font-roboto text-xl font-regular mt-2'>Unit 10, Ashleigh Retail Center, </p>
+            <p className='font-roboto text-xl font-regular'>Castleknock Village, D15 H9YD </p>
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
@@ -211,7 +219,7 @@ export default function Landing() {
       </div>
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
-        <div className='w-100 col-span-8 col-start-3 mb-16 mt-4 h-px bg-yellow-600' />
+        <div className='w-100 col-span-8 col-start-3 mb-16 mt-4 h-0.5 bg-brown' />
         <div className='col-span-4 col-start-5 flex flex-row justify-center'>
           <p className='mr-10'>Careers</p>
           <p className='mr-10'>Terms & Conditions</p>
