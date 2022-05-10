@@ -160,20 +160,20 @@ export default function Landing() {
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold text-amber-900'>Monday & Tuesday </p>
-            <p className='font-roboto text-xl font-regular mt-2'>Closed </p>
+            <p className='font-roboto text-xl font-regular text-amber-900'>Monday & Tuesday </p>
+            <p className='font-roboto text-xl font-light mt-2'>Closed </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold text-amber-900'>
+            <p className='font-roboto text-xl font-regular text-amber-900'>
               Wedenesday & Thursday{' '}
             </p>
-            <p className='font-roboto text-xl font-regular mt-2'>18:30 - 21:30 </p>
+            <p className='font-roboto text-xl font-light mt-2'>18:30 - 21:30 </p>
           </div>
 
           <div className='mt-5 flex flex-col'>
-            <p className='font-roboto text-xl font-bold text-amber-900'>Friday - Sunday </p>
-            <p className='font-roboto text-xl font-regular mt-2'>12:00 - 21:30 </p>
+            <p className='font-roboto text-xl font-regular text-amber-900'>Friday - Sunday </p>
+            <p className='font-roboto text-xl font-light mt-2'>12:00 - 21:30 </p>
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Contact</p>
@@ -183,9 +183,9 @@ export default function Landing() {
               <div className='mr-0 flex flex-col items-center'>
                
               </div>
-              <p className='font-bold text-amber-900'>Email</p>
+              <p className='font-regular text-amber-900'>Email</p>
             </div>
-            <p className='font-roboto text-xl font-regular mt-2'>
+            <p className='font-roboto text-xl font-light mt-2'>
               info@twinoaksrestaurant{' '}
             </p>
           </div>
@@ -195,10 +195,10 @@ export default function Landing() {
               <div className='mr-0'>
                 
               </div>
-              <p className='font-bold text-amber-900'>Phone</p>
+              <p className='font-regular text-amber-900'>Phone</p>
             </div>
 
-            <p className='font-roboto text-xl font-regular mt-2'>+353 87 908 7089 </p>
+            <p className='font-roboto text-xl font-light mt-2'>+353 87 908 7089 </p>
           </div>
 
           <div className='mt-5 mb-20 flex flex-col'>
@@ -206,10 +206,10 @@ export default function Landing() {
               <div className='mr-0'>
                 
               </div>
-              <p className='font-bold text-amber-900'>Address</p>
+              <p className='font-regular text-amber-900'>Address</p>
             </div>
-            <p className='font-roboto text-xl font-regular mt-2'>Unit 10, Ashleigh Retail Center, </p>
-            <p className='font-roboto text-xl font-regular'>Castleknock Village, D15 H9YD </p>
+            <p className='font-roboto text-xl font-light mt-2'>Unit 10, Ashleigh Retail Center, </p>
+            <p className='font-roboto text-xl font-light'>Castleknock Village, D15 H9YD </p>
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
