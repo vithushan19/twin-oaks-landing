@@ -9,16 +9,19 @@ export default function Landing() {
           <div className='mr-4 flex flex-col items-center'>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
           </div> {' '}
-          <p>647-431-4312</p>
+          <p></p>
         </div>
         <div className='flex'>
-          <div className='mr-10'>
-            <Link href='#aboutus'>ABOUT US</Link>
+        <div className='mr-12'>
+            <Link href=''>MENU</Link>
           </div>
-          <div className='mr-10'>
+          <div className='mr-12'>
+            <Link href='#aboutus'>OUR STORY</Link>
+          </div>
+          <div className='mr-12'>
             <Link href='#careers'>CAREERS</Link>
           </div>
-          <div className='mr-10'>
+          <div className='mr-12'>
             <Link href='#hours'>CONTACT</Link>
           </div>
         </div>
@@ -82,12 +85,12 @@ export default function Landing() {
           />
           <p className='font-playfair text-4xl w-full text-center mb-8'>TWIN OAKS</p>
         </div>
-        <button className='rounded-sm bg-brown px-6 py-4 text-white'>
+        <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40'>
           Reserve a table
         </button>
       </div>
       <div id='aboutus' className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
-        <p className='mb-5 mt-20 font-playfair text-5xl'>Our Story</p>
+        <p className='mb-5 mt-20 font-playfair text-4xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
           Twin Oaks is a locally owned restaurant serving modern Irish cuisine.
@@ -148,8 +151,7 @@ export default function Landing() {
               width={268}
               height={158}
               objectFit='contain'
-              margin-left= 'auto'
-              margin-right='auto'
+          
     
             />
             <p className='font-playfair text-5xl'>TWIN OAKS</p>
@@ -219,7 +221,7 @@ export default function Landing() {
       </div>
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
-        <div className='w-100 col-span-8 col-start-3 mb-16 mt-4 h-0.5 bg-brown' />
+        <div className='w-100 col-span-8 col-start-3 mb-16 mt-4 h-px bg-brown' />
         <div className='col-span-4 col-start-5 flex flex-row justify-center'>
           <p className='mr-10'>Careers</p>
           <p className='mr-10'>Terms & Conditions</p>
