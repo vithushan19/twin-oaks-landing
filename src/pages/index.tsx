@@ -6,24 +6,26 @@ export default function Landing() {
     <div className='h-full grid grid-cols-1 bg-marble bg-repeat-round'>
       <div className='hidden h-16 items-center justify-around bg-white bg-opacity-50 sm:flex'>
         <div className='flex items-center'>
-          <div className='mr-4 flex flex-col items-center'>
+          <div className='mr-20 flex flex-col items-center'>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
           </div> {' '}
           <p></p>
         </div>
+        <div className='flex items-center'>
         <div className='flex'>
-        <div className='mr-12'>
+        <div className='mr-14'>
             <Link href=''>MENU</Link>
           </div>
-          <div className='mr-12'>
+          <div className='mr-14'>
             <Link href='#aboutus'>OUR STORY</Link>
           </div>
-          <div className='mr-12'>
+          <div className='mr-14'>
             <Link href='#careers'>CAREERS</Link>
           </div>
-          <div className='mr-12'>
+          <div className='mr-14'>
             <Link href='#hours'>CONTACT</Link>
           </div>
+        </div>
         </div>
         <div className='flex'>
           <div className='mr-10'>
@@ -83,10 +85,10 @@ export default function Landing() {
             height={158}
             objectFit='contain'
           />
-          <p className='font-playfair text-5xl w-full text-center mb-8'>TWIN OAKS</p>
+          <p className='font-playfair text-4xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
         </div>
-        <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40'>
-          Reserve a table
+        <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40 font-lato font-light'>
+          Reserve a Table
         </button>
       </div>
       <div id='aboutus' className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'>
