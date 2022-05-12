@@ -83,7 +83,7 @@ export default function Landing() {
             height={158}
             objectFit='contain'
           />
-          <p className='font-playfair text-4xl w-full text-center mb-8'>TWIN OAKS</p>
+          <p className='font-playfair text-5xl w-full text-center mb-8'>TWIN OAKS</p>
         </div>
         <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40'>
           Reserve a table
@@ -108,7 +108,7 @@ export default function Landing() {
 
       <div id='careers'className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'>
         <div className='bg-greyBlue pt-0 pl-16 pr-16 sm:pr-32 sm:pl-36'>
-          <p className='mt-20 mb-5 font-playfair text-5xl'>Careers</p>
+          <p className='mt-20 mb-5 font-playfair text-4xl'>Careers</p>
 
           <div className='mb-16 h-px w-64 bg-brown' />
           <p className='mb-8 font-roboto text-lg font-light'>
@@ -213,7 +213,7 @@ export default function Landing() {
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
-          <p className='font-roboto text-base'>
+          <p className='font-roboto text-lg'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
