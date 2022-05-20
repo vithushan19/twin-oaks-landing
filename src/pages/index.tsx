@@ -85,7 +85,7 @@ export default function Landing() {
             height={158}
             objectFit='contain'
           />
-          <p className='font-playfair text-5xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
+          <p className='font-playfair text-4xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
         </div>
         <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40 font-lato font-light'>
           Reserve a Table
@@ -156,7 +156,7 @@ export default function Landing() {
           
     
             />
-            <p className='font-playfair text-5xl'>TWIN OAKS</p>
+            <p className='font-playfair text-4xl'>TWIN OAKS</p>
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
