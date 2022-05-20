@@ -85,7 +85,7 @@ export default function Landing() {
             height={158}
             objectFit='contain'
           />
-          <p className='font-playfair text-4xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
+          <p className='font-playfair text-5xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
         </div>
         <button className='rounded-sm bg-brown px-6 py-4 text-white mb-40 font-lato font-light'>
           Reserve a Table
@@ -145,7 +145,7 @@ export default function Landing() {
       </div>
 
       <div id='hours'className='grid grid-cols-1 bg-marble bg-repeat-round font-roboto text-xl sm:grid-cols-2'>
-        <div className='pl-16 sm:pl-36'>
+        <div className='px-16 sm:px-36'>
           <div className='mt-16'>
             <Image
               src='/images/tree.svg'
