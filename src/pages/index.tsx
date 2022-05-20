@@ -146,7 +146,7 @@ export default function Landing() {
         <div className='mb-8 lg:hidden'>
           {' '}
           <Image
-            src='/images/twin_oaks_logo_final.svg'
+            src='/images/mobile_logo_final.svg'
             alt='acorns'
             width={282}
             height={253}
@@ -224,7 +224,7 @@ export default function Landing() {
         <div className='px-16 sm:px-36'>
           <div className='mt-16'>
             <Image
-              src='/images/twin_oaks_logo_final.svg'
+              src='/images/mobile_logo_final.svg'
               alt='acorns'
               width={282}
               height={253}
