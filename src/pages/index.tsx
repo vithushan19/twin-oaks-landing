@@ -146,16 +146,13 @@ export default function Landing() {
         <div className='mb-8 lg:hidden'>
           {' '}
           <Image
-            src='/images/tree.svg'
+            src='/images/twin_oaks_logo_final.svg'
             alt='acorns'
-            width={268}
-            height={158}
+            width={282}
+            height={253}
             objectFit='contain'
           />
-          <p className='font-playfair text-4xl w-full text-center mb-8 flex-col'>TWIN OAKS</p>
-          <p className='mb-8 w-full flex-col text-center font-playfair text-5xl'>
-            TWIN OAKS
-          </p>
+          
         </div>
         <button className='font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white'>
           Reserve a Table
@@ -227,13 +224,13 @@ export default function Landing() {
         <div className='px-16 sm:px-36'>
           <div className='mt-16'>
             <Image
-              src='/images/tree.svg'
+              src='/images/twin_oaks_logo_final.svg'
               alt='acorns'
-              width={268}
-              height={158}
+              width={282}
+              height={253}
               objectFit='contain'
             />
-            <p className='font-playfair text-4xl'>TWIN OAKS</p>
+            
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
