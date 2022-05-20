@@ -5,8 +5,22 @@ export default function Landing() {
   return (
     <div className='grid h-full grid-cols-1 bg-marble bg-repeat-round'>
       {/* Mobile Only - Social Links */}
+      
       <div className='flex justify-center p-4 lg:hidden'>
         <div className='mr-10'>
+        <a href='tel:+442071234567'>
+             
+               
+                <Image
+                  src='/images/phone.svg'
+                  alt='phone'
+                  width={15}
+                  height={20}
+                />
+               
+             
+            </a>
+           
           <a
             target='_blank'
             href='https://twitter.com/twinoak02355553'
