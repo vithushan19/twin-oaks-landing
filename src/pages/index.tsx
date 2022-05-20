@@ -4,7 +4,8 @@ import Link from 'next/link';
 export default function Landing() {
   return (
     <div className='grid h-full grid-cols-1 bg-marble bg-repeat-round'>
-      <div className='flex justify-center p-4 sm:hidden'>
+      {/* Mobile Only - Social Links */}
+      <div className='flex justify-center p-4 lg:hidden'>
         <div className='mr-10'>
           <a
             target='_blank'
@@ -48,7 +49,7 @@ export default function Landing() {
           </a>
         </div>
       </div>
-      <div className='hidden h-16 items-center justify-between bg-white bg-opacity-50 sm:flex'>
+      <div className='hidden h-16 items-center justify-between bg-white bg-opacity-50 lg:flex'>
         {/* Phone */}
         <div className='flex items-center'>
           <div className='ml-8 flex items-center'>
@@ -132,7 +133,7 @@ export default function Landing() {
 
       <div className=' flex h-full w-full flex-col items-center justify-center p-16 sm:p-20 lg:p-40'>
         {/* Desktop Only */}
-        <div className='hidden sm:block'>
+        <div className='hidden lg:block'>
           {' '}
           <Image
             src='/images/header_web_logo.svg'
@@ -142,7 +143,7 @@ export default function Landing() {
           />
         </div>
         {/* Mobile Only */}
-        <div className='mb-8 sm:hidden'>
+        <div className='mb-8 lg:hidden'>
           {' '}
           <Image
             src='/images/tree.svg'
