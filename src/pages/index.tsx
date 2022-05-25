@@ -6,7 +6,7 @@ export default function Landing() {
     <div className='grid h-full grid-cols-1 bg-marble bg-repeat-round'>
       {/* Mobile Only - Social Links */}
       
-      <div className='flex justify-center p-4 lg:hidden'>
+      <div className='flex justify-center p-4 mt-4 lg:hidden'>
         <div className='mr-10'>
         <a href='tel:+442071234567'>
              
