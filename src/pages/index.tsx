@@ -20,7 +20,8 @@ export default function Landing() {
                
              
             </a>
-           
+            </div>{' '}
+            <div className='mr-10'>
           <a
             target='_blank'
             href='https://twitter.com/twinoak02355553'
@@ -33,7 +34,7 @@ export default function Landing() {
               height={20}
             />
           </a>
-        </div>{' '}
+          </div>
         <div className='mr-10'>
           <a
             target='_blank'
@@ -157,7 +158,7 @@ export default function Landing() {
           />
         </div>
         {/* Mobile Only */}
-        <div className='mb-8 lg:hidden'>
+        <div className='mb-10 mt-20 lg:hidden'>
           {' '}
           <Image
             src='/images/mobile_logo_final.svg'
@@ -311,7 +312,7 @@ export default function Landing() {
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
-          <p className='font-roboto font-light text-lg'>
+          <p className='font-roboto text-lg font-light'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
