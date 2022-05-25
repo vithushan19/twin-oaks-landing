@@ -311,7 +311,7 @@ export default function Landing() {
           </div>
         </div>
         <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
-          <p className='font-roboto text-lg'>
+          <p className='font-roboto font-light text-lg'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
