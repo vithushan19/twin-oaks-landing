@@ -158,7 +158,7 @@ export default function Landing() {
           />
         </div>
         {/* Mobile Only */}
-        <div className='mb-10 mt-20 lg:hidden'>
+        <div className='mb-10 mt-10 lg:hidden'>
           {' '}
           <Image
             src='/images/mobile_logo_final.svg'
