@@ -161,7 +161,7 @@ export default function Landing() {
         <div className='mb-10 mt-10 lg:hidden'>
           {' '}
           <Image
-            src='/images/mobile_logo_final.svg'
+            src='/images/mobile logo.png'
             alt='acorns'
             width={282}
             height={253}
