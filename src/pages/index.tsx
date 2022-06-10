@@ -154,14 +154,20 @@ export default function Landing() {
           <Image
             src='/images/mobile logo.png'
             alt='acorns'
-            width={282}
-            height={253}
+            width={564}
+            height={506}
             objectFit='contain'
           />
         </div>
-        <button className='font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white'>
+        <button className='font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block'>
           Reserve a Table
         </button>
+        <iframe
+          className='block sm:hidden'
+          style={{ height: '700px', width: '300px' }}
+          src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
+          title='W3Schools Free Online Web Tutorials'
+        ></iframe>
       </div>
       <div
         id='aboutus'
@@ -306,6 +312,7 @@ export default function Landing() {
             dining, reservations & menus.
           </p>
           <iframe
+            className='hidden sm:block'
             style={{ height: '700px', width: '300px' }}
             src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
             title='W3Schools Free Online Web Tutorials'
