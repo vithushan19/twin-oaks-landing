@@ -5,23 +5,14 @@ export default function Landing() {
   return (
     <div className='grid h-full grid-cols-1 bg-marble bg-repeat-round'>
       {/* Mobile Only - Social Links */}
-      
-      <div className='flex justify-center p-4 mt-4 lg:hidden'>
+
+      <div className='mt-4 flex justify-center p-4 lg:hidden'>
         <div className='mr-10'>
-        <a href='tel:+442071234567'>
-             
-               
-                <Image
-                  src='/images/phone.svg'
-                  alt='phone'
-                  width={15}
-                  height={20}
-                />
-               
-             
-            </a>
-            </div>{' '}
-            <div className='mr-10'>
+          <a href='tel:+442071234567'>
+            <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
+          </a>
+        </div>{' '}
+        <div className='mr-10'>
           <a
             target='_blank'
             href='https://twitter.com/twinoak02355553'
@@ -34,7 +25,7 @@ export default function Landing() {
               height={20}
             />
           </a>
-          </div>
+        </div>
         <div className='mr-10'>
           <a
             target='_blank'
@@ -167,7 +158,6 @@ export default function Landing() {
             height={253}
             objectFit='contain'
           />
-          
         </div>
         <button className='font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white'>
           Reserve a Table
@@ -245,7 +235,6 @@ export default function Landing() {
               height={253}
               objectFit='contain'
             />
-            
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
@@ -316,6 +305,11 @@ export default function Landing() {
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
+          <iframe
+            style={{ height: '700px', width: '300px' }}
+            src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
+            title='W3Schools Free Online Web Tutorials'
+          ></iframe>
         </div>
       </div>
 
