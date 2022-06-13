@@ -154,8 +154,8 @@ export default function Landing() {
           <Image
             src='/images/ml2.svg'
             alt='acorns'
-            width={230}
-            height={190}
+            width={460}
+            height={380}
             objectFit='contain'
           />
         
