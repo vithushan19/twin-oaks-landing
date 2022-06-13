@@ -165,7 +165,7 @@ export default function Landing() {
         </button>
         <iframe
           className='block sm:hidden'
-          style={{ height: '700px', width: '300px' }}
+          style={{ height: '700px', width: '450px' }}
           src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
           title='W3Schools Free Online Web Tutorials'
         ></iframe>
