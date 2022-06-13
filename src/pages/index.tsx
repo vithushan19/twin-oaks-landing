@@ -29,7 +29,7 @@ export default function Landing() {
         <div className='mr-10'>
           <a
             target='_blank'
-            href='https://www.facebook.com/Twin-Oaks-Restaurant-114943181204346 '
+            href='https://www.facebook.com/Twin-Oaks-Restaurant-105746908840426'
             rel='noreferrer'
           >
             <Image
@@ -109,7 +109,7 @@ export default function Landing() {
           <div className='mr-10'>
             <a
               target='_blank'
-              href='https://www.facebook.com/Twin-Oaks-Restaurant-114943181204346 '
+              href='https://www.facebook.com/Twin-Oaks-Restaurant-105746908840426'
               rel='noreferrer'
             >
               <Image
