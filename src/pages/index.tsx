@@ -152,12 +152,13 @@ export default function Landing() {
         <div className='mb-10 mt-10 lg:hidden'>
           {' '}
           <Image
-            src='/images/mobile logo.png'
+            src='/images/ml2.svg'
             alt='acorns'
-            width={564}
-            height={506}
+            width={230}
+            height={190}
             objectFit='contain'
           />
+        
         </div>
         <button className='font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block'>
           Reserve a Table
@@ -235,12 +236,13 @@ export default function Landing() {
         <div className='px-16 sm:px-36'>
           <div className='mt-16'>
             <Image
-              src='/images/mobile_logo_final.svg'
+              src='/images/ml2.svg'
               alt='acorns'
-              width={282}
-              height={253}
+              width={230}
+              height={190}
               objectFit='contain'
             />
+            
           </div>
 
           <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
