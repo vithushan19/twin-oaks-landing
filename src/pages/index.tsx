@@ -163,12 +163,15 @@ export default function Landing() {
         <button className='font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block'>
           Reserve a Table
         </button>
-        <iframe
-          className='block sm:hidden'
-          style={{ height: '700px', width: '375px' }}
-          src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
-          title='W3Schools Free Online Web Tutorials'
-        ></iframe>
+        <!--<iframe
+            className='hidden sm:hidden'
+            style={{ height: '700px', width: '300px' }}
+            src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
+            title='W3Schools Free Online Web Tutorials'
+        ></iframe>-->
+        <div className='block sm:hidden' style={{ height: '490px', width: '288px' }}>
+          <script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'></script>
+        </div>
       </div>
       <div
         id='aboutus'
@@ -313,12 +316,15 @@ export default function Landing() {
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
-          <iframe
+          <!--<iframe
             className='hidden sm:block'
             style={{ height: '700px', width: '300px' }}
             src='https://www.opentable.ie/r/twin-oaks-reservations-dublin-15?restref=278919&lang=en-IE&ot_source=Restaurant%20website&theme=tall'
             title='W3Schools Free Online Web Tutorials'
-          ></iframe>
+          ></iframe>-->
+          <div className='hidden sm:block' style={{ height: '490px', width: '288px' }}>
+          <script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'></script>
+          </div>
         </div>
       </div>
 
