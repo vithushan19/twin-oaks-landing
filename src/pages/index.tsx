@@ -160,9 +160,9 @@ export default function Landing() {
           />
         </div>
         <button className='font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block'>
-          Reserve a Table
+        <Link href='#reserve'>Reserve a Table </Link>
         </button>
-
+        
         <div
           className='block sm:hidden'
           style={{ height: '490px', width: '288px' }}
@@ -181,7 +181,7 @@ export default function Landing() {
         <p className='mb-5 mt-20 font-playfair text-4xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
-          Twin Oaks is a locally owned restaurant serving modern Irish cuisine.
+          Twin Oaks is a locally owned steakhouse and  seafood restaurant.
           Simple, clean, unfussy and seasonal. A variety of tasty small plates,
           delicous mains & sharing dishes.
         </p>
@@ -262,16 +262,21 @@ export default function Landing() {
               Wedenesday & Thursday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
-              18:30 - 21:30{' '}
+              17:00 - 21:30{' '}
             </p>
           </div>
-
           <div className='mt-5 flex flex-col'>
             <p className='font-regular font-roboto text-xl text-amber-900'>
-              Friday - Sunday{' '}
+              Friday{' '}
+            </p>
+            <p className='mt-2 font-roboto text-xl font-light'>12:00 - 21:30 </p>
+          </div>
+          <div className='mt-5 flex flex-col'>
+            <p className='font-regular font-roboto text-xl text-amber-900'>
+              Saturday - Sunday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
-              12:00 - 21:30{' '}
+              11:00 - 21:30{' '}
             </p>
           </div>
 
@@ -311,13 +316,15 @@ export default function Landing() {
             </p>
           </div>
         </div>
-        <div className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
+        <div 
+        id='reserve'
+        className='mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48'>
           <p className='font-roboto text-lg font-light'>
             Please contact us if you have any questions regarding private
             dining, reservations & menus.
           </p>
           <div
-            className='hidden sm:block'
+            className='hidden sm:block mt-10'
             style={{ height: '490px', width: '288px' }}
           >
             <script
