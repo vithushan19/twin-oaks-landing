@@ -59,7 +59,7 @@ export default function Landing() {
         {/* Phone */}
         <div className='flex items-center'>
           <div className='ml-8 flex items-center'>
-            <a href='tel:+442071234567'>
+            <a href='tel:+35315671759'>
               <div className='flex'>
                 <Image
                   src='/images/phone.svg'
