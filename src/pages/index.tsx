@@ -8,7 +8,7 @@ export default function Landing() {
 
       <div className='mt-4 flex justify-center p-4 lg:hidden'>
         <div className='mr-10'>
-          <a href='tel:+442071234567'>
+          <a href='tel:+35315671759'>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
           </a>
         </div>{' '}
@@ -299,7 +299,7 @@ export default function Landing() {
             </div>
 
             <p className='mt-2 font-roboto text-xl font-light'>
-              +353 87 908 7089{' '}
+              +353 1 567 1759{' '}
             </p>
           </div>
 
