@@ -67,7 +67,7 @@ export default function Landing() {
                   width={15}
                   height={20}
                 />
-                <p className='ml-4'>+442071234567</p>
+                <p className='ml-4'>+35315671759</p>
               </div>
             </a>
           </div>{' '}
