@@ -249,7 +249,7 @@ export default function Landing() {
             />
           </div>
 
-          <p className='mt-10 mb-8 font-playfair text-3xl'>Opening Hours</p>
+          <p className='mt-10 mb-8 font-playfair text-2xl'>Opening Hours</p>
 
           <div className='mt-5 flex flex-col'>
             <p className='font-regular font-roboto text-xl text-amber-900'>
@@ -281,7 +281,7 @@ export default function Landing() {
             </p>
           </div>
 
-          <p className='mt-10 mb-8 font-playfair text-3xl'>Contact</p>
+          <p className='mt-10 mb-8 font-playfair text-2xl'>Contact</p>
 
           <div className='mt-5 flex flex-col'>
             <div className='flex items-center'>
