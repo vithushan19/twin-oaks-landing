@@ -8,7 +8,7 @@ export default function Landing() {
 
       <div className='mt-4 flex justify-center p-4 lg:hidden'>
         <div className='mr-10'>
-          <a href='tel:+35315671759'>
+          <a href='tel:015671759'>
             <Image src='/images/phone.svg' alt='phone' width={15} height={20} />
           </a>
         </div>{' '}
@@ -59,7 +59,7 @@ export default function Landing() {
         {/* Phone */}
         <div className='flex items-center'>
           <div className='ml-8 flex items-center'>
-            <a href='tel:+35315671759'>
+            <a href='tel:015671759'>
               <div className='flex'>
                 <Image
                   src='/images/phone.svg'
@@ -67,7 +67,7 @@ export default function Landing() {
                   width={15}
                   height={20}
                 />
-                <p className='ml-4'>+35315671759</p>
+                <p className='ml-4'>015671759</p>
               </div>
             </a>
           </div>{' '}
@@ -159,6 +159,7 @@ export default function Landing() {
             objectFit='contain'
           />
         </div>
+        
         <button className='font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block'>
         <Link href='#reserve'>Reserve a Table </Link>
         </button>
@@ -259,7 +260,7 @@ export default function Landing() {
 
           <div className='mt-5 flex flex-col'>
             <p className='font-regular font-roboto text-xl text-amber-900'>
-              Wedenesday & Thursday{' '}
+              Wednesday & Thursday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
               17:00 - 21:30{' '}
@@ -288,7 +289,7 @@ export default function Landing() {
               <p className='font-regular text-amber-900'>Email</p>
             </div>
             <p className='mt-2 font-roboto text-xl font-light'>
-              info@twinoaksrestaurant{' '}
+              info@twinoaksrestaurant.ie{' '}
             </p>
           </div>
 
@@ -299,7 +300,7 @@ export default function Landing() {
             </div>
 
             <p className='mt-2 font-roboto text-xl font-light'>
-              +353 1 567 1759{' '}
+              (01) 567 1759{' '}
             </p>
           </div>
 
