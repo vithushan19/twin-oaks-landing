@@ -77,7 +77,7 @@ export default function Landing() {
         <div className='flex items-center'>
           <div className='flex'>
             <div className='mr-14'>
-              <Link href=''>MENU</Link>
+              <Link href='#menu'>MENU</Link>
             </div>
             <div className='mr-14'>
               <Link href='#aboutus'>OUR STORY</Link>
@@ -336,8 +336,108 @@ export default function Landing() {
           </div>
         </div>
       </div>
+      <div
+        id='menu'
+        className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'
+      >
+        <p className='mb-5 mt-20 font-playfair text-4xl'> Dinner Menu </p>
+        <div className='mb-16 h-px w-full bg-brown sm:w-110' />
+      
+        <p className='mb-8 font-roboto text-2xl font-regular'>
+          
+          Starters
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Beef shin croquettes, braised for 10 hours and served with green romesco sauce 7.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Ham hock terrine, basil purée, watercress salad, grilled sourdough 8.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Burnt peach salad, orange segments and shaved fennel, red radish & heirloom tomatoes 9.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Crab toes pil pil, garlic chili served with grilled sourdough 12.00 
+        </p>
+        <p className='mb-12 font-roboto text-lg font-light'>
+        Prawns on toast, wild garlic butter done in old bay sauce & confit tomatoes 12.50
+        </p>
+        <p className='mb-8 font-roboto text-2xl font-regular'>
+          Mains
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Monkfish skewers, with mix peppers, pearl couscous, salad hung yogurt mint sauce 26.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Chicken supreme, served with corn purée, polenta chip, confit tomatoes and lemon thyme jus 24.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Homemade pan fried gnocchi, pea, mint, pine nuts  24.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Seafood risotto, served with prawns, mussels, crab claws, monkfish, pea and tarragon, lemon purée 28.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        12oz loin of beef, served with whipped bone marrow butter, rocket salad & chips 32.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Lamb shoulder, mint purée, baby potatoes, grilled asparagus, lamb jus 28.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Moules mariniere Irish rope mussels served with chips, shallots and butter 24.00
+        </p>
+        <p className='mb-12 font-roboto text-lg font-light'>
+        Prawn linguine pasta, garlic chili, lemon parsley & tomatoes 24.00
+        </p>
+        <p className='mb-8 font-roboto text-2xl font-regular'>
+          Sharing Plates
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Whole fish of the day for two, with grapefruit beurre blanc sauce and a choice of two sides (market price)
+        </p>
+        <p className='mb-12 font-roboto text-lg font-light'>
+        36oz cote de boeuf, served with water cress, marrow butter, jus and a choice of two sides 70.00
+        </p>
+        <p className='mb-8 font-roboto text-2xl font-regular'>
+          Desserts
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Mixed berry créme brulee 7.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Chocolate fondant ice cream 8.00
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Strawberry mess 7.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Lemon tart berry couli raspberry sorbet 7.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Affogato served with biscotti 7.50
+        </p>
+        <p className='mb-12 font-roboto text-lg font-light'>
+        Boozy Icecream | rum& raisin, dark chocolate & whiskey,cosmo (mix or all of 1) 7.50
+        </p>
+        <p className='mb-8 font-roboto text-2xl font-regular'>
+          Sides
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Chips 4.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Green Salad 4.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Asparagus,green beans & toasted almonds 4.50
+        </p>
+        <p className='mb-8 font-roboto text-lg font-light'>
+        Baby potatoes in mint 4.50
+        </p>
+      </div>
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
+      
         <div className='w-100 col-span-8 col-start-3 mb-8 mt-4 h-px bg-brown' />
         <div className='col-span-12 flex flex-col items-center justify-center sm:col-span-6 sm:col-start-4 sm:flex-row'>
           <p className='sm:mr-10'>Careers</p>
