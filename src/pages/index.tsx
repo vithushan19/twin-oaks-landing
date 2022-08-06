@@ -263,21 +263,21 @@ export default function Landing() {
               Wednesday & Thursday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
-              17:00 - 21:30{' '}
+              17:00 - 23:30{' '}
             </p>
           </div>
           <div className='mt-5 flex flex-col'>
             <p className='font-regular font-roboto text-xl text-amber-900'>
               Friday{' '}
             </p>
-            <p className='mt-2 font-roboto text-xl font-light'>12:00 - 21:30 </p>
+            <p className='mt-2 font-roboto text-xl font-light'>11:00 - 23:30 </p>
           </div>
           <div className='mt-5 flex flex-col'>
             <p className='font-regular font-roboto text-xl text-amber-900'>
               Saturday - Sunday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
-              11:00 - 21:30{' '}
+              11:00 - 23:30{' '}
             </p>
           </div>
 
