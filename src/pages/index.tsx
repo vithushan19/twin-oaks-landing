@@ -225,7 +225,7 @@ export default function Landing() {
         <div className='bg-red-100'>
           <div style={{ width: '100%', height: '100%', position: 'relative' }}>
             <Image
-              src='/images/careers.png'
+              src='/images/Twin oaks bar .jpg'
               alt='careers'
               layout='fill'
               objectFit='cover'
@@ -342,7 +342,9 @@ export default function Landing() {
       >
         <p className='mb-5 mt-20 font-playfair text-4xl'> Dinner Menu </p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
-      
+        <p className='mb-8 font-roboto text-lg font-light'>
+        menu subject to change 
+        </p>
         <p className='mb-8 font-roboto text-2xl font-regular'>
           
           Starters
@@ -435,6 +437,14 @@ export default function Landing() {
         Baby potatoes in mint 4.50
         </p>
       </div>
+      <Image
+              src='/images/Kids Menu SVG.svg'
+              alt='contact'
+              layout='fill'
+              width={230}
+              height={190}
+              objectFit='contain'
+            />
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
       
