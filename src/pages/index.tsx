@@ -340,6 +340,7 @@ export default function Landing() {
         id='menu'
         className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'
       >
+      
         <p className='mb-5 mt-20 font-playfair text-4xl'> Dinner Menu </p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
@@ -437,18 +438,12 @@ export default function Landing() {
         Baby potatoes in mint 4.50
         </p>
       </div>
-      <Image
-              src='/images/Kids Menu SVG.svg'
-              alt='contact'
-              layout='fill'
-              width={230}
-              height={190}
-              objectFit='contain'
-            />
+     
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
       
         <div className='w-100 col-span-8 col-start-3 mb-8 mt-4 h-px bg-brown' />
+        
         <div className='col-span-12 flex flex-col items-center justify-center sm:col-span-6 sm:col-start-4 sm:flex-row'>
           <p className='sm:mr-10'>Careers</p>
           <p className='my-8 sm:mr-10'>Terms & Conditions</p>
