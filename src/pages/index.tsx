@@ -342,7 +342,27 @@ export default function Landing() {
         className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'
       >
         <img
-          src='/images/brunch-menu.svg'
+          src='/images/Dinner Menu V4.svg'
+          alt='brunch'
+          className='m-8 mt-20 w-full'
+        />
+        <img
+          src='/images/Brunch Menu V5.svg'
+          alt='brunch'
+          className='m-8 w-full'
+        />
+         <img
+          src='/images/Kids Menu V5.svg'
+          alt='brunch'
+          className='m-8 w-full'
+        />
+         <img
+          src='/images/Dessert Menu V5.svg'
+          alt='brunch'
+          className='m-8 w-full'
+        />
+        <img
+          src='/images/Early Bird menu V5.svg'
           alt='brunch'
           className='m-8 w-full'
         />
