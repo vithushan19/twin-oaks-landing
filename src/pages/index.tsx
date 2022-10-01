@@ -202,7 +202,7 @@ export default function Landing() {
        Give the gift of dining at the Twin Oaks! E-gift vouchers are available to purchase at any value.  
         </p>
         <button className='font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white'>
-          <Link href='https://gift.loylap.com/twinoaks/5898/amount=0erve'>Buy a Card</Link>
+          <Link href='https://gift.loylap.com/twinoaks/5898/'>Buy a Card</Link>
         </button>
        
       </div>
