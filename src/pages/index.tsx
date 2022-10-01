@@ -183,8 +183,7 @@ export default function Landing() {
         <p className='mb-5 mt-20 font-playfair text-4xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
-        We're a neighbourhood restaurant, bar & terrace. 
-        It’s a place to catch up with an old pal, share a delicious meal with family or celebrate a special milestone. 
+        Twin Oaks is a neighbourhood restaurant, bar & terrace. A place to catch up with an old pal, share a delicious meal with family or celebrate a special milestone. 
         </p>
         <div className='mb-20'>
           <Image src='/images/acorns.svg' alt='acorns' width={48} height={48} />
@@ -208,7 +207,7 @@ export default function Landing() {
             house staff. Send us your resume!
           </p>
           <div className='mt-16 mb-24'>
-            <button className='rounded-sm border-1 border-2 border-white p-4'>
+            <button className='rounded-sm border-1 border-white p-4'>
               <a
                 href='mailto:careers@twinoaks.ie'
                 className='font-roboto text-base font-light'
