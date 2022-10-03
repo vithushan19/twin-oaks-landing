@@ -84,7 +84,7 @@ export default function Landing() {
               <Link href='#aboutus'>OUR STORY</Link>
             </div>
             <div className='mr-14'>
-              <Link href='#giftcards'>GIFT CARDS</Link>
+              <Link href='#giftcards'>GIFT VOUCHERS</Link>
             </div>
             <div className='mr-14'>
               <Link href='#careers'>CAREERS</Link>
@@ -193,7 +193,7 @@ export default function Landing() {
         </div>
       </div>
       <div
-        id='aboutus'
+        id='giftcards'
         className='font-divlayfair flex w-full flex-col items-center bg-red-100 px-16 text-center text-black sm:px-60'
       >
         <p className='mb-5 mt-20 font-playfair text-4xl'>Gift Vouchers</p>
