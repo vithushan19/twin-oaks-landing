@@ -352,12 +352,12 @@ export default function Landing() {
         className='font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60'
       >
         <img
-          src='/images/Dinner Menu SVG (1).svg'
+          src='/images/DM V1.svg'
           alt='brunch'
           className='m-8 mt-20 w-full'
         />
         <img
-          src='/images/Brunch Menu V5.svg'
+          src='/images/BM V1.svg'
           alt='brunch'
           className='m-8 w-full'
         />
