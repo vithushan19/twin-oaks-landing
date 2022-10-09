@@ -371,11 +371,7 @@ export default function Landing() {
           alt='brunch'
           className='m-8 w-full'
         />
-        <img
-          src='/images/Early Bird menu V5.svg'
-          alt='brunch'
-          className='m-8 w-full'
-        />
+        
       </div>
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
