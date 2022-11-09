@@ -283,7 +283,7 @@ export default function Landing() {
               Friday{' '}
             </p>
             <p className='mt-2 font-roboto text-xl font-light'>
-              11:00 - 23:30{' '}
+              16:00 - 00:30{' '}
             </p>
           </div>
           <div className='mt-5 flex flex-col'>
