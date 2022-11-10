@@ -358,22 +358,27 @@ export default function Landing() {
           className='m-8 mt-20 w-full'
         />
         <img
-          src='/images/DM V1.svg'
+          src='/images/dinner .svg'
           alt='brunch'
           className='m-8 mt-20 w-full'
         />
         <img
-          src='/images/BM V1.svg'
+          src='/images/christmas brunch lunch.svg'
           alt='brunch'
           className='m-8 w-full'
         />
          <img
-          src='/images/Kids Menu V5.svg'
+          src='/images/cocktail.svg'
           alt='brunch'
           className='m-8 w-full'
         />
          <img
-          src='/images/Dessert Menu V5.svg'
+          src='/images/kids menu.svg'
+          alt='brunch'
+          className='m-8 w-full'
+        />
+         <img
+          src='/images/dessert.svg'
           alt='brunch'
           className='m-8 w-full'
         />
