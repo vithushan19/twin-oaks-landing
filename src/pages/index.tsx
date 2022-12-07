@@ -303,7 +303,7 @@ export default function Landing() {
               <p className='font-regular text-amber-900'>Email</p>
             </div>
             <p className='mt-2 font-roboto text-xl font-light'>
-              info@twinoaks.ie{' '}
+              twinoaksdublin@gmail.com{' '}
             </p>
           </div>
 
