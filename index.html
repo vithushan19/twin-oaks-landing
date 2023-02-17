@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twin Oaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              marble: "url('images/marble.png')",
+              leaf: "url('images/BI3.svg')",
+            },
+            borderWidth: {
+              1: '1px',
+            },
+            fontFamily: {
+              playfair: ['Playfair Display', 'sans'],
+              roboto: ['Roboto', 'sans'],
+            },
+            colors: {
+              brown: '#5F2003',
+              navyBlue: '#030C1E',
+              greyBlue: '#1E2532',
+              dark: '#222222',
+            },
+            width: {
+              110: '440px',
+            },
+            keyframes: {
+              flicker: {
+                '0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100%': {
+                  opacity: 0.99,
+                  filter:
+                    'drop-shadow(0 0 1px rgba(252, 211, 77)) drop-shadow(0 0 15px rgba(245, 158, 11)) drop-shadow(0 0 1px rgba(252, 211, 77))',
+                },
+                '20%, 21.999%, 63%, 63.999%, 65%, 69.999%': {
+                  opacity: 0.4,
+                  filter: 'none',
+                },
+              },
+              shimmer: {
+                '0%': {
+                  backgroundPosition: '-700px 0',
+                },
+                '100%': {
+                  backgroundPosition: '700px 0',
+                },
+              },
+            },
+            animation: {
+              flicker: 'flicker 3s linear infinite',
+              shimmer: 'shimmer 1.3s linear infinite',
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="grid h-full grid-cols-1 bg-marble bg-repeat-round">
+      <!-- Mobile Navbar -->
+      <div class="mt-4 flex justify-center p-4 lg:hidden">
+        <div class="mr-10">
+          <a href="tel:015671759">
+            <img src="images/phone.svg" alt="phone" width="15" height="20" />
+          </a>
+        </div>
+        <div class="mr-10">
+          <a
+            target="_blank"
+            href="https://twitter.com/twinoak02355553"
+            rel="noreferrer"
+          >
+            <img
+              src="images/twitter.svg"
+              alt="twitter"
+              width="{20}"
+              height="{20}"
+            />
+          </a>
+        </div>
+        <div class="mr-10">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Twin-Oaks-Restaurant-105746908840426"
+            rel="noreferrer"
+          >
+            <img
+              src="images/facebook.svg"
+              alt="facebook"
+              width="{20}"
+              height="{20}"
+            />
+          </a>
+        </div>
+        <div class="">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/twinoaks.ie/"
+            rel="noreferrer"
+          >
+            <img
+              src="images/Instagram.svg"
+              alt="instagram"
+              width="{20}"
+              height="{20}"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Desktop Navbar -->
+      <div
+        class="hidden h-16 items-center justify-between bg-white bg-opacity-50 lg:flex"
+      >
+        <!-- Phone Number -->
+        <div class="flex items-center">
+          <div class="ml-8 flex items-center">
+            <a href="tel:015671759">
+              <div class="flex">
+                <img
+                  src="images/phone.svg"
+                  alt="phone"
+                  width="{15}"
+                  height="{20}"
+                />
+                <p class="ml-4">015671759</p>
+              </div>
+            </a>
+          </div>
+          <p></p>
+        </div>
+
+        <!-- Nav Menu -->
+        <div class="flex items-center">
+          <div class="flex">
+            <div class="mr-14">
+              <a href="#menu">MENU</a>
+            </div>
+            <div class="mr-14">
+              <a href="#aboutus">OUR STORY</a>
+            </div>
+            <div class="mr-14">
+              <a href="#giftcards">GIFT VOUCHERS</a>
+            </div>
+            <div class="mr-14">
+              <a href="#careers">CAREERS</a>
+            </div>
+            <div class="">
+              <a href="#hours">CONTACT</a>
+            </div>
+          </div>
+        </div>
+        <!-- Social Links -->
+        <div class="flex">
+          <div class="mr-10">
+            <a
+              target="_blank"
+              href="https://twitter.com/twinoak02355553"
+              rel="noreferrer"
+            >
+              <img src="images/twitter.svg" alt="twitter" />
+            </a>
+          </div>
+          <div class="mr-10">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Twin-Oaks-Restaurant-105746908840426"
+              rel="noreferrer"
+            >
+              <img
+                src="images/facebook.svg"
+                alt="facebook"
+                width="{20}"
+                height="{20}"
+              />
+            </a>
+          </div>
+          <div class="mr-10">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/twinoaks.ie/"
+              rel="noreferrer"
+            >
+              <img
+                src="images/Instagram.svg"
+                alt="instagram"
+                width="{20}"
+                height="{20}"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex h-full w-full flex-col items-center justify-center p-16 sm:p-20 lg:p-40"
+      >
+        <!-- Desktop Only -->
+        <div class="hidden lg:block">
+          <img
+            src="images/header_web_logo.svg"
+            alt="header"
+            width="{770}"
+            height="{174}"
+          />
+        </div>
+        <!-- Mobile Only -->
+        <div class="mb-10 mt-10 lg:hidden">
+          <img
+            src="images/mobile_logo.svg"
+            alt="acorns"
+            width="{460}"
+            height="{380}"
+            objectFit="contain"
+          />
+        </div>
+
+        <button
+          class="font-lato mb-40 hidden rounded-sm bg-brown px-6 py-4 font-light text-white sm:block"
+        >
+          <a href="#reserve">Reserve a Table </a>
+        </button>
+
+        <div
+          class="block sm:hidden"
+          style="height: '490px', width:
+        '288px'"
+        >
+          <script
+            type="text/javascript"
+            src="//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website"
+            defer
+          ></script>
+        </div>
+      </div>
+
+      <!-- Christmas Section -->
+      <div
+        id="christmas"
+        class="flex w-full flex-col items-center bg-greyBlue px-16 text-center font-playfair text-white sm:px-60"
+      >
+        <p class="mb-10 mt-10 font-playfair text-4xl">
+          Merry Christmas & Happy New Year from everyone at the Twin Oaks!
+        </p>
+
+        <p class="mb-8 from-stone-900 font-roboto text-2xl font-light">
+          Thank you for your support this year!
+        </p>
+        <p class="font-Bold mb-4 from-stone-900 font-roboto text-xl">
+          Christmas Opening Hours
+        </p>
+        <p class="mb-4 from-stone-900 font-roboto text-lg font-light">
+          The Twin Oaks will be closed from 5pm Saturday 24th of December to
+          Tuesday 27th of December (Inclusive)
+        </p>
+        <p class="mb-8 from-stone-900 font-roboto text-lg font-light">
+          We will be re-opening at 5pm on Wednesday, December 28th.
+        </p>
+      </div>
+
+      <!-- Gift card section -->
+      <div
+        id="giftcards"
+        class="font-divlayfair h flex w-full flex-col items-center bg-red-50 px-16 text-center text-black sm:px-60"
+      >
+        <p class="mb-5 mt-20 font-playfair text-4xl">Gift Vouchers</p>
+        <div class="mb-16 h-px w-full bg-brown sm:w-110"></div>
+
+        <p class="mb-8 from-stone-900 font-roboto text-lg font-light">
+          Give the gift of dining at the Twin Oaks! E-gift vouchers are
+          available to purchase at any value.
+        </p>
+        <button
+          class="font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white"
+        >
+          <a href="https://gift.loylap.com/twinoaks/5898/">Buy a Voucher</a>
+        </button>
+      </div>
+
+      <!-- About Us Section -->
+      <div
+        id="aboutus"
+        class="font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60"
+      >
+        <p class="mb-5 mt-20 font-playfair text-4xl">Our Story</p>
+        <div class="mb-16 h-px w-full bg-brown sm:w-110"></div>
+
+        <p class="mb-8 font-roboto text-lg font-light">
+          Twin Oaks is a neighbourhood restaurant, bar & terrace. A place to
+          catch up with an old pal, share a delicious meal with family or
+          celebrate a special milestone.
+        </p>
+        <div class="mb-20">
+          <img
+            src="images/acorns.svg"
+            alt="acorns"
+            width="{48}"
+            height="{48}"
+          />
+        </div>
+      </div>
+
+      <!-- Careers Section -->
+      <div
+        id="careers"
+        class="grid grid-cols-1 font-roboto text-white sm:grid-cols-2"
+      >
+        <div class="bg-greyBlue pt-0 pl-16 pr-16 sm:pr-32 sm:pl-36">
+          <p class="mt-20 mb-5 font-playfair text-4xl">Careers</p>
+
+          <div class="mb-16 h-px w-64 bg-brown"></div>
+
+          <p class="mb-8 font-roboto text-lg font-light">
+            Are you looking for an exciting, new opportunity in the hospitality
+            industry?
+          </p>
+          <p class="font-roboto text-lg font-light">
+            We are hiring all levels of kitchen staff and all levels of front of
+            house staff. Send us your resume!
+          </p>
+          <div class="mt-16 mb-24">
+            <button class="rounded-sm border-1 border-white p-4">
+              <a
+                href="mailto:careers@twinoaks.ie"
+                class="font-roboto text-base font-light"
+              >
+                Send Resume
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="bg-red-100">
+          <img
+            src="images/Twin oaks bar .jpg"
+            alt="careers"
+            layout="fill"
+            objectFit="cover"
+            class="w-full"
+          />
+        </div>
+      </div>
+
+      <!-- Hours Section -->
+      <div
+        id="hours"
+        class="grid grid-cols-1 bg-marble bg-repeat-round font-roboto text-xl sm:grid-cols-2"
+      >
+        <div class="px-16 sm:px-36">
+          <div class="mt-16">
+            <img
+              src="images/mobile_logo.svg"
+              alt="acorns"
+              width="{230}"
+              height="{190}"
+              objectFit="contain"
+            />
+          </div>
+
+          <p class="mt-10 mb-8 font-playfair text-2xl">Opening Hours</p>
+
+          <div class="mt-5 flex flex-col">
+            <p class="font-regular font-roboto text-xl text-amber-900">
+              Monday & Tuesday
+            </p>
+            <p class="mt-2 font-roboto text-xl font-light">Closed</p>
+          </div>
+
+          <div class="mt-5 flex flex-col">
+            <p class="font-regular font-roboto text-xl text-amber-900">
+              Wednesday & Thursday
+            </p>
+            <p class="mt-2 font-roboto text-xl font-light">17:00 - 23:30</p>
+          </div>
+          <div class="mt-5 flex flex-col">
+            <p class="font-regular font-roboto text-xl text-amber-900">
+              Friday
+            </p>
+            <p class="mt-2 font-roboto text-xl font-light">16:00 - 00:30</p>
+          </div>
+          <div class="mt-5 flex flex-col">
+            <p class="font-regular font-roboto text-xl text-amber-900">
+              Saturday - Sunday
+            </p>
+            <p class="mt-2 font-roboto text-xl font-light">11:00 - 23:30</p>
+          </div>
+
+          <p class="mt-10 mb-8 font-playfair text-2xl">Contact</p>
+
+          <div class="mt-5 flex flex-col">
+            <div class="flex items-center">
+              <div class="mr-0 flex flex-col items-center"></div>
+              <p class="font-regular text-amber-900">Email</p>
+            </div>
+            <p class="mt-2 font-roboto text-xl font-light">
+              twinoaksdublin@gmail.com
+            </p>
+          </div>
+
+          <div class="mt-5 flex flex-col">
+            <div class="flex">
+              <div class="mr-0"></div>
+              <p class="font-regular text-amber-900">Phone</p>
+            </div>
+
+            <p class="mt-2 font-roboto text-xl font-light">(01) 567 1759</p>
+          </div>
+
+          <div class="mt-5 mb-20 flex flex-col">
+            <div class="flex">
+              <div class="mr-0"></div>
+              <p class="font-regular text-amber-900">Address</p>
+            </div>
+            <p class="mt-2 font-roboto text-xl font-light">
+              Unit 10, Ashleigh Retail Center,
+            </p>
+            <p class="font-roboto text-xl font-light">
+              Castleknock Village, D15 H9YD
+            </p>
+          </div>
+        </div>
+        <div id="reserve" class="mx-16 mb-16 mt-16 sm:mx-24 sm:mt-48">
+          <p class="font-roboto text-lg font-light">
+            Please contact us if you have any questions regarding private
+            dining, reservations & menus.
+          </p>
+          <div
+            class="mt-10 hidden sm:block"
+            style="height: '490px', width: '288px'"
+          >
+            <script
+              type="text/javascript"
+              src="//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website"
+              defer
+            ></script>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="menu"
+        class="font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60"
+      >
+        <img
+          src="images/Set Christmas Dinner Menu.svg"
+          alt="brunch"
+          class="m-8 mt-20 w-full"
+        />
+        <img src="images/DM V1.svg" alt="brunch" class="m-8 mt-20 w-full" />
+        <img src="images/BM V1.svg" alt="brunch" class="m-8 w-full" />
+        <img src="images/Kids Menu V5.svg" alt="brunch" class="m-8 w-full" />
+        <img src="images/Dessert Menu V5.svg" alt="brunch" class="m-8 w-full" />
+      </div>
+
+      <div
+        class="grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white"
+      >
+        <div class="w-100 col-span-8 col-start-3 mb-8 mt-4 h-px bg-brown"></div>
+
+        <div
+          class="col-span-12 flex flex-col items-center justify-center sm:col-span-6 sm:col-start-4 sm:flex-row"
+        >
+          <p class="sm:mr-10">Careers</p>
+          <p class="my-8 sm:mr-10">Terms & Conditions</p>
+          <p class="">Cookie Policy</p>
+        </div>
+        <p class="col-span-12 my-8 text-center sm:col-span-4 sm:col-start-5">
+          © Twin Oaks 2022
+        </p>
+        <p class="col-span-12 text-center sm:col-span-4 sm:col-start-5">
+          Designed & Developed by
+          <a href="https://skillify.ca" passHref="{true}">
+            <span class="text-yellow-600">Skillify</span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
