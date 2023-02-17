@@ -181,38 +181,41 @@ export default function Landing() {
       </div>
       <div
         id='giftcards'
-        className='font-divlayfair flex w-full flex-col items-center bg-greyBlue h px-16 text-center text-white sm:px-60'
+        className='font-divlayfair h flex w-full flex-col items-center bg-greyBlue px-16 text-center text-white sm:px-60'
       >
-        <p className='mb-10 mt-10 font-playfair text-4xl'>Merry Christmas & Happy New Year from everyone at the Twin Oaks!</p>
-        
-        <p className='mb-8 font-roboto text-2xl font-light from-stone-900'>
-       Thank you for your support this year!  
+        <p className='mb-10 mt-10 font-playfair text-4xl'>
+          Merry Christmas & Happy New Year from everyone at the Twin Oaks!
         </p>
-        <p className='mb-4 font-roboto text-xl font-Bold from-stone-900'>
-       Christmas Opening Hours  
+
+        <p className='mb-8 from-stone-900 font-roboto text-2xl font-light'>
+          Thank you for your support this year!
         </p>
-        <p className='mb-4 font-roboto text-lg font-light from-stone-900'>
-       The Twin Oaks will be closed from 5pm Saturday 24th of December to Tuesday 27th of December (Inclusive)
+        <p className='font-Bold mb-4 from-stone-900 font-roboto text-xl'>
+          Christmas Opening Hours
         </p>
-        <p className='mb-8 font-roboto text-lg font-light from-stone-900'>
-       We will be re-opening at 5pm on Wednesday, December 28th. 
+        <p className='mb-4 from-stone-900 font-roboto text-lg font-light'>
+          The Twin Oaks will be closed from 5pm Saturday 24th of December to
+          Tuesday 27th of December (Inclusive)
         </p>
-        
-       
+        <p className='mb-8 from-stone-900 font-roboto text-lg font-light'>
+          We will be re-opening at 5pm on Wednesday, December 28th.
+        </p>
       </div>
       <div
         id='giftcards'
-        className='font-divlayfair flex w-full flex-col items-center bg-red-50 h px-16 text-center text-black sm:px-60'
+        className='font-divlayfair h flex w-full flex-col items-center bg-red-50 px-16 text-center text-black sm:px-60'
       >
         <p className='mb-5 mt-20 font-playfair text-4xl'>Gift Vouchers</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
-        <p className='mb-8 font-roboto text-lg font-light from-stone-900'>
-       Give the gift of dining at the Twin Oaks! E-gift vouchers are available to purchase at any value.  
+        <p className='mb-8 from-stone-900 font-roboto text-lg font-light'>
+          Give the gift of dining at the Twin Oaks! E-gift vouchers are
+          available to purchase at any value.
         </p>
         <button className='font-lato mb-40 rounded-sm bg-brown px-6 py-4 font-light text-white'>
-          <Link href='https://gift.loylap.com/twinoaks/5898/'>Buy a Voucher</Link>
+          <Link href='https://gift.loylap.com/twinoaks/5898/'>
+            Buy a Voucher
+          </Link>
         </button>
-       
       </div>
       <div
         id='aboutus'
@@ -221,13 +224,15 @@ export default function Landing() {
         <p className='mb-5 mt-20 font-playfair text-4xl'>Our Story</p>
         <div className='mb-16 h-px w-full bg-brown sm:w-110' />
         <p className='mb-8 font-roboto text-lg font-light'>
-        Twin Oaks is a neighbourhood restaurant, bar & terrace. A place to catch up with an old pal, share a delicious meal with family or celebrate a special milestone. 
+          Twin Oaks is a neighbourhood restaurant, bar & terrace. A place to
+          catch up with an old pal, share a delicious meal with family or
+          celebrate a special milestone.
         </p>
         <div className='mb-20'>
           <Image src='/images/acorns.svg' alt='acorns' width={48} height={48} />
         </div>
       </div>
-      
+
       <div
         id='careers'
         className='grid grid-cols-1 font-roboto text-white sm:grid-cols-2'
@@ -383,22 +388,17 @@ export default function Landing() {
           alt='brunch'
           className='m-8 mt-20 w-full'
         />
+        <img src='/images/BM V1.svg' alt='brunch' className='m-8 w-full' />
         <img
-          src='/images/BM V1.svg'
-          alt='brunch'
-          className='m-8 w-full'
-        />
-         <img
           src='/images/Kids Menu V5.svg'
           alt='brunch'
           className='m-8 w-full'
         />
-         <img
+        <img
           src='/images/Dessert Menu V5.svg'
           alt='brunch'
           className='m-8 w-full'
         />
-        
       </div>
 
       <div className='grid grid-cols-12 items-center justify-center bg-navyBlue p-8 font-roboto font-light text-white'>
