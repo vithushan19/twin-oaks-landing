@@ -1,15 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
-function withOpacityValue(variable) {
-  return ({ opacityValue }) => {
-    if (opacityValue === undefined) {
-      return `rgb(var(${variable}))`;
-    }
-    return `rgb(var(${variable}) / ${opacityValue})`;
-  };
-}
-
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -20,7 +11,7 @@ module.exports = {
         leaf: "url('/images/BI3.svg')",
       },
       borderWidth: {
-        '1': '1px',
+        1: '1px',
       },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
@@ -28,13 +19,13 @@ module.exports = {
         roboto: ['Roboto', ...fontFamily.sans],
       },
       colors: {
-        brown: "#5F2003",
-        navyBlue: "#030C1E",
-        greyBlue: "#1E2532",
+        brown: '#5F2003',
+        navyBlue: '#030C1E',
+        greyBlue: '#1E2532',
         dark: '#222222',
       },
       width: {
-        110: "440px"
+        110: '440px',
       },
       keyframes: {
         flicker: {
