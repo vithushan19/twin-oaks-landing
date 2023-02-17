@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { Helmet } from 'react-helmet';
+
 function App() {
   return (
     <div className="App">
@@ -172,11 +174,13 @@ function App() {
           className='block sm:hidden'
           style={{ height: '490px', width: '288px' }}
         >
-          <script
-            type='text/javascript'
-            src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
-            defer
-          ></script>
+          <Helmet>
+            <script
+              type='text/javascript'
+              src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
+              defer
+            ></script>
+          </Helmet>
         </div>
       </div>
       <div
@@ -360,11 +364,13 @@ function App() {
             className='mt-10 hidden sm:block'
             style={{ height: '490px', width: '288px' }}
           >
-            <script
-              type='text/javascript'
-              src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
-              defer
-            ></script>
+            <Helmet>
+              <script
+                type='text/javascript'
+                src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
+                defer
+              ></script>
+            </Helmet>
           </div>
         </div>
       </div>
