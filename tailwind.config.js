@@ -16,7 +16,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        marble: "url('/images/marble.png')",
+        marble: `url('/public/images/marble.png')`,
         leaf: "url('/images/BI3.svg')",
       },
       borderWidth: {
