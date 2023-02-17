@@ -177,7 +177,7 @@ function App() {
           <Helmet>
             <script
               type='text/javascript'
-              src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
+              src={'//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
               defer
             ></script>
           </Helmet>
@@ -367,7 +367,7 @@ function App() {
             <Helmet>
               <script
                 type='text/javascript'
-                src={'https://www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
+                src={'//www.opentable.com/widget/reservation/loader?rid=278919&type=standard&theme=tall&color=1&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'}
                 defer
               ></script>
             </Helmet>
