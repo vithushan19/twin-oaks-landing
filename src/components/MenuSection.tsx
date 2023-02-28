@@ -21,7 +21,7 @@ export default function MenuSection() {
     {
       name: "Dessert Menu",
       image: "/images/menus/Dessert-Menu.png",
-      link: "/menus/Dessert-Menu.pdf",
+      link: "/menus/Dessert.pdf",
     },
     {
       name: "Kids Menu",
@@ -42,11 +42,11 @@ export default function MenuSection() {
   return (
     <div
       id="menu"
-      className="py-20 font-divlayfair flex w-full flex-col items-center bg-navyBlue px-16 text-center text-white sm:px-60"
+      className="flex flex-col items-center w-full px-16 py-20 text-center text-white font-divlayfair bg-navyBlue sm:px-60"
     >
-      <p className="mb-5 font-playfair text-4xl">Menus</p>
+      <p className="mb-5 text-4xl font-playfair">Menus</p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
         {menus.map((menu) => (
           <MenuCard key={menu.link} menuData={menu} />
         ))}
@@ -61,13 +61,13 @@ type MenuCardProps = {
 function MenuCard({ menuData }: MenuCardProps) {
   return (
     <Link passHref href={menuData.link}>
-      <div className="p-4 flex flex-col items-center rounded-xl transition-all hover:scale-110">
+      <div className="flex flex-col items-center p-4 transition-all rounded-xl hover:scale-110">
         <Image
           src={menuData.image}
           alt={menuData.name}
           width={200}
           height={200}
-          className="h-64 w-64 object-cover"
+          className="object-cover w-64 h-64"
         />
         <p>{menuData.name}</p>
       </div>
