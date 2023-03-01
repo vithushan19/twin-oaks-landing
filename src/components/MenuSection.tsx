@@ -36,7 +36,7 @@ export default function MenuSection() {
     {
       name: "Dinner Set Menu",
       image: "/images/menus/Dinner-Set-Menu.png",
-      link: "/menus/Dinner-Set-Menu.pdf",
+      link: "/menus/DInner-Set-Menu.pdf",
     },
   ];
   return (
