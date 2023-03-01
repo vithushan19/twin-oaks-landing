@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="sm:mr-10">Terms & Conditions</p>
         <p className="">Cookie Policy</p>
       </div> */}
-      <p className="text-center">© Twin Oaks 2022</p>
+      <p className="text-center">© Twin Oaks 2023</p>
       <Link href="https://skillify.ca" passHref={true}>
         <p className="col-span-12 text-center sm:col-span-4 sm:col-start-5">
           Designed & Developed by{" "}
