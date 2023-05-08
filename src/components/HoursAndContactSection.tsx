@@ -42,7 +42,7 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Saturday - Sunday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">11:00 - 23:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light">10:00 - 23:30 </p>
         </div>
 
         <p className="mt-10 mb-8 font-playfair text-2xl">Contact</p>
