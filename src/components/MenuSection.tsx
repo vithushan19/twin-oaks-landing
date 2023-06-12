@@ -11,12 +11,12 @@ export default function MenuSection() {
     {
       name: "Dinner Menu",
       image: "/images/menus/Dinner-Menu.png",
-      link: "/menus/Dinner-Menu.pdf",
+      link: "/menus/Summer Dinner.pdf",
     },
     {
-      name: "Lunch/Brunch Menu",
+      name: "Lunch Menu",
       image: "/images/menus/Brunch-Menu.png",
-      link: "/menus/Brunch-Menu.pdf",
+      link: "/menus/Lunch.pdf",
     },
     {
       name: "Dessert Menu",
@@ -29,14 +29,14 @@ export default function MenuSection() {
       link: "/menus/Kids-Menu.pdf",
     },
     {
-      name: "Lunch/Brunch Set Menu",
+      name: "Snack Menu",
       image: "/images/menus/Lunch-Set-Menu.png",
-      link: "/menus/Lunch-Set-Menu.pdf",
+      link: "/menus/Snack.pdf",
     },
     {
-      name: "Dinner Set Menu",
+      name: "Residence Menu",
       image: "/images/menus/Dinner-Set-Menu.png",
-      link: "/menus/DInner-Set-Menu.pdf",
+      link: "/menus/Residence.pdf",
     },
   ];
   return (
