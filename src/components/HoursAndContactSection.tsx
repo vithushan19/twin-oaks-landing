@@ -36,13 +36,19 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Friday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">16:00 - 00:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light">16:00 - 23:30 </p>
         </div>
         <div className="mt-5 flex flex-col">
           <p className="font-regular font-roboto text-xl text-amber-900">
-            Saturday - Sunday{" "}
+            Saturday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">10:00 - 23:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light">12:00 - 23:30 </p>
+        </div>
+        <div className="mt-5 flex flex-col">
+          <p className="font-regular font-roboto text-xl text-amber-900">
+            Sunday{" "}
+          </p>
+          <p className="mt-2 font-roboto text-xl font-light">12:00 - 21:30 </p>
         </div>
 
         <p className="mt-10 mb-8 font-playfair text-2xl">Contact</p>
