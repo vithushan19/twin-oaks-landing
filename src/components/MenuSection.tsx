@@ -11,17 +11,17 @@ export default function MenuSection() {
     {
       name: "Dinner Menu",
       image: "/images/menus/Dinner-Menu.png",
-      link: "/menus/Summer Dinner.pdf",
+      link: "/menus/Dinner Menu.pdf",
     },
     {
-      name: "Lunch Menu",
+      name: "Weekday Breakfast & Lunch",
       image: "/images/menus/Brunch-Menu.png",
-      link: "/menus/Lunch.pdf",
+      link: "/menus/Breakfast Lunch Menu.pdf",
     },
     {
       name: "Dessert Menu",
       image: "/images/menus/Dessert-Menu.png",
-      link: "/menus/Dessert.pdf",
+      link: "/menus/Dessert Menu.pdf",
     },
     {
       name: "Kids Menu",
@@ -29,14 +29,14 @@ export default function MenuSection() {
       link: "/menus/Kids-Menu.pdf",
     },
     {
-      name: "Snack Menu",
+      name: "Weekend Breakfast & Lunch",
       image: "/images/menus/Lunch-Set-Menu.png",
-      link: "/menus/Snack.pdf",
+      link: "/menus/Weekend Brunch Lunch Menu.pdf",
     },
     {
-      name: "Residence Menu",
+      name: "Drinks Menu",
       image: "/images/menus/Dinner-Set-Menu.png",
-      link: "/menus/Residence.pdf",
+      link: "/menus/Drinks Menu.pdf",
     },
   ];
   return (

@@ -23,32 +23,44 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Monday & Tuesday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">09:00 - 16:00 </p>
+          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 4pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
         </div>
 
         <div className="mt-5 flex flex-col">
           <p className="font-regular font-roboto text-xl text-amber-900">
             Wednesday & Thursday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">17:00 - 23:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 11pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Dinner served 5pm - 9pm </p>
         </div>
         <div className="mt-5 flex flex-col">
           <p className="font-regular font-roboto text-xl text-amber-900">
             Friday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">16:00 - 23:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 12am </p>
+           <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Dinner served 5pm - 9pm </p>
         </div>
         <div className="mt-5 flex flex-col">
           <p className="font-regular font-roboto text-xl text-amber-900">
             Saturday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">12:00 - 23:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light">Open from 10am - 12am </p>
+           <p className="mt-2 font-roboto text-xl font-light">Brunch served 10am - 3:30pm</p>
+          <p className="mt-2 font-roboto text-xl font-light">Dinner served 5pm-9pm </p>
         </div>
         <div className="mt-5 flex flex-col">
           <p className="font-regular font-roboto text-xl text-amber-900">
             Sunday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">12:00 - 21:30 </p>
+          <p className="mt-2 font-roboto text-xl font-light">Open from 10am - 9pm </p>
+           <p className="mt-2 font-roboto text-xl font-light">Brunch served 10am - 2:30pm</p>
+          <p className="mt-2 font-roboto text-xl font-light">Dinner served 3:30pm-8pm </p>
         </div>
 
         <p className="mt-10 mb-8 font-playfair text-2xl">Contact</p>
