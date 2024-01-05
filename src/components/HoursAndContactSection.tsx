@@ -23,7 +23,7 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Monday & Tuesday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light">Closed </p>
+          <p className="mt-2 font-roboto text-xl font-light">09:00 - 16:00 </p>
         </div>
 
         <div className="mt-5 flex flex-col">
