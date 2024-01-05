@@ -11,7 +11,7 @@ export default function MenuSection() {
     {
       name: "Dinner Menu",
       image: "/images/menus/Dinner-Menu.png",
-      link: "/menus/Summer Dinner.pdf",
+      link: "/menus/Dinner Menu.pdf",
     },
     {
       name: "Lunch Menu",
