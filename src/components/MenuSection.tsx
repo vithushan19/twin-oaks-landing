@@ -29,14 +29,14 @@ export default function MenuSection() {
       link: "/menus/Kids-Menu.pdf",
     },
     {
-      name: "Snack Menu",
+      name: "Weekend Brunch & Lunch Menu",
       image: "/images/menus/Lunch-Set-Menu.png",
-      link: "/menus/Snack.pdf",
+      link: "/menus/Weekend Brunch Lunch.pdf",
     },
     {
-      name: "Residence Menu",
+      name: "Drinks Menu",
       image: "/images/menus/Dinner-Set-Menu.png",
-      link: "/menus/Residence.pdf",
+      link: "/menus/Drinks Menu.pdf",
     },
   ];
   return (
