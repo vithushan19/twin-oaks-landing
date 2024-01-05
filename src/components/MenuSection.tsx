@@ -14,9 +14,9 @@ export default function MenuSection() {
       link: "/menus/Dinner Menu.pdf",
     },
     {
-      name: "Lunch Menu",
+      name: "Weekday Breakfast & Lunch Menu",
       image: "/images/menus/Brunch-Menu.png",
-      link: "/menus/Lunch.pdf",
+      link: "/menus/Breakfast Lunch Menu.pdf",
     },
     {
       name: "Dessert Menu",
