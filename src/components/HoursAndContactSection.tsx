@@ -23,7 +23,7 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Monday & Tuesday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 4pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Open from 9am - 4pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
         </div>
@@ -32,7 +32,7 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Wednesday & Thursday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 11pm </p>
+          <p className="mt-2 font-roboto text-xl font-light">Open from 9am - 11pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Dinner served 5pm - 9pm </p>
@@ -41,7 +41,7 @@ export default function HoursAndContactSection() {
           <p className="font-regular font-roboto text-xl text-amber-900">
             Friday{" "}
           </p>
-          <p className="mt-2 font-roboto text-xl font-light"> Open from 9am - 12am </p>
+          <p className="mt-2 font-roboto text-xl font-light">Open from 9am - 12am </p>
            <p className="mt-2 font-roboto text-xl font-light">Breakfast served 9am - 12pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Lunch served 12pm - 3pm </p>
           <p className="mt-2 font-roboto text-xl font-light">Dinner served 5pm - 9pm </p>
