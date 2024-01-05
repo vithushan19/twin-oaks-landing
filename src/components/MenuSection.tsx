@@ -21,7 +21,7 @@ export default function MenuSection() {
     {
       name: "Dessert Menu",
       image: "/images/menus/Dessert-Menu.png",
-      link: "/menus/Dessert.pdf",
+      link: "/menus/Dessert Menu.pdf",
     },
     {
       name: "Kids Menu",
