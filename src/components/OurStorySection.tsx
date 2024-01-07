@@ -13,10 +13,9 @@ export default function OurStorySection() {
       </p>
       <p className="mb-8 font-roboto text-lg font-light">
       Focusing on the best local produce & warm hospitality served in a beautifully designed space.
-
-We source the very best Steaks, Seafood & Veg from local suppliers in North Co Dublin. We're passionate about cocktails, we do all the classics and a few with our own twist.
-
-      </p>
+      We source the very best Steaks, Seafood & Veg from local suppliers in North Co Dublin. 
+      We are passionate about cocktails, we do all the classics and a few with our own twist.
+     </p>
       <p className="mb-8 font-roboto text-lg font-light">
 We serve breakfast Monday to Friday & Brunch on Weekends - from Homemade Scones & Pastries, Blueberry pancakes, Avocado toast, a Full Irish and more. All served with fresh locally Roasted Coffee.
       </p>
@@ -24,7 +23,7 @@ We serve breakfast Monday to Friday & Brunch on Weekends - from Homemade Scones 
       Our Lunch Menu has Soups, Sandwiches, Salads, Fish & Chips, Fresh Pastas and Burgers, alongside weekly specials. 
       </p>
       <p className="mb-8 font-roboto text-lg font-light">
-      We serve our Weekend Roast on Saturday's & Sundays with a prime cut of slowly Roasted Irish Beef alongside all the trimmings.
+      We serve our Weekend Roast on Saturdays & Sundays with a prime cut of slowly Roasted Irish Beef alongside all the trimmings.
       </p>
       <p className="mb-8 font-roboto text-lg font-light">
       We have 10 beers on tap and a wide range of wines. Book your table on our website or call us at 01 567 1759.
