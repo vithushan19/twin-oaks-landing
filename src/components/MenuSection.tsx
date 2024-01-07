@@ -31,7 +31,7 @@ export default function MenuSection() {
     {
       name: "Weekend Brunch & Lunch Menu",
       image: "/images/menus/Lunch-Set-Menu.png",
-      link: "/menus/Weekend Brunch Lunch.pdf",
+      link: "/menus/Weekend Brunch Lunch Menu.pdf",
     },
     {
       name: "Drinks Menu",
